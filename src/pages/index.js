@@ -11,7 +11,7 @@ function index() {
       <Info />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Home | Sumanth</title>
+        <title>MalaquiasDEV | A Vida, o código e tudo mais</title>
       </Helmet>
     </div>
   )
