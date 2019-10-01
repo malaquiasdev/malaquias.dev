@@ -5,15 +5,15 @@ import { graphql } from "gatsby"
 import Card from "../components/card"
 import { Helmet } from "react-helmet"
 
-function Projects({ data }) {
-  const projectList = data.allProjectsYaml.edges
+function Posts({ data }) {
+  const projectList = data.allPostsYaml.edges
 
   return (
     <div className="container-fluid">
       <Appbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title> Projects </title>{" "}
+        <title> Posts </title>{" "}
       </Helmet>{" "}
       <div className="row">
         {" "}
@@ -32,11 +32,11 @@ function Projects({ data }) {
   )
 }
 
-export default Projects
+export default Posts
 
 export const query = graphql`
   {
-    allProjectsYaml {
+    allPostsYaml {
       edges {
         node {
           title
