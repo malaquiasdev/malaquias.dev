@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - node
+cache:
+  directories:
+    - node_modules
+script:
+  - npm install
+  - npm run build
+  - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY S3_BUCKET_NAME=$S3_BUCKET_NAME npm run deploy

@@ -1,3 +1,7 @@
+require('dotenv').config();
+process.env.AWS_ACCESS_KEY_ID
+process.env.AWS_SECRET_ACCESS_KEY
+
 module.exports = {
   siteMetadata: {
     title: `MalaquiasDEV | A Vida, o código e tudo mais`,
@@ -7,6 +11,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: process.env.S3_BUCKET_NAME
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
