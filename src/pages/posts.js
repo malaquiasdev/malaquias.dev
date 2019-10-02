@@ -13,7 +13,7 @@ function Posts({ data }) {
       <Appbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title> Posts </title>{" "}
+        <title> Artigos </title>{" "}
       </Helmet>{" "}
       <div className="row">
         {" "}
