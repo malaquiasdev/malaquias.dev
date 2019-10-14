@@ -8,7 +8,7 @@ function card(props) {
         <div className="card-body">
           <h2 className="card-title">{cardTitle}</h2>
           <p className="card-text">{cardSubtitle}</p>
-          <a href={link} target="_blank" className="card-link">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">
             See
           </a>
         </div>

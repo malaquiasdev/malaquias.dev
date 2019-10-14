@@ -6,7 +6,6 @@ import {
   FaLinkedin as Linkedin,
   FaDev as DevTO,
   FaInstagram as Insta,
-  FaEnvelope as Mail,
 } from "react-icons/fa"
 
 export default function info() {
@@ -14,16 +13,17 @@ export default function info() {
     <div className="container">
       <div className="my-5"></div>
       <div className="display-3" style={{ color: "#FF8A00" }}>
-        <span style = {{color : "white"}}>Oi, me chamo</span> <br />
+        <span style = {{color : "white"}}>Hi, I'm</span> <br />
         Mateus Malaquias.
       </div>
       <div className="h1 code mt-4 mb-3">{"{"}</div>
-      <div className="text-muted mx-5 my-4 h3 text-justify info">
-          Sou Baiano, pedreiro de software e estou sempre estudando melhores práticas, experimentando novas linguagens e tecnologias.
+      <div className="text-muted mx-5 my-4 h3 text-left info">
+        "jobRole": "Software Development Engineer", <br /> <br /> 
+        "about": "I'm a back-end developer who like to work and collaborate with teams and also have good interpersonal skills",
         <br /> <br /> 
-        Trabalhando com: #javascript #nodejs #serverless #aws #opensource #produtividade.
+        "working": [ "#BFF", "#API", "#javascript", "#node", "#serverless", "#cloudfront", "#AWS", "#lambda", "#fargate", "#cloudwatch", "#xray", "#dynamodb", "#docker" ],
         <br />  <br />
-        Estudando: #java #kotlin #springboot #docker #awsfargate
+        "studying": [ "#java", "#typescript", "#docker", "#fargate" ]
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="h1 mt-5">
@@ -43,9 +43,6 @@ export default function info() {
         </a>
         <a className="mr-5 icon" href="https://www.instagram.com/malaquiasdev/">
           <Insta />
-        </a>
-        <a className="mr-5 icon" href="mailto://mateusmalaquiasdev@outlook.com">
-          <Mail />
         </a>
       </div>
     </div>
