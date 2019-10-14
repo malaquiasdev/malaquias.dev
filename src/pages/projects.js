@@ -13,7 +13,7 @@ function Projects({ data }) {
       <Appbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title> Projetos </title>{" "}
+        <title> MalaquiasDEV | Projects </title>{" "}
       </Helmet>{" "}
       <div className="row">
         {" "}
