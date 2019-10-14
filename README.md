@@ -1,5 +1,7 @@
 # malaquias.dev
 
+[![Build Status](https://travis-ci.org/malaquiasdev/malaquias.dev.svg?branch=master)](https://travis-ci.org/malaquiasdev/malaquias.dev)
+
 ---
 
 ## Used Platforms
