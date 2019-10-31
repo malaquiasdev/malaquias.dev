@@ -1,24 +1,9 @@
----
-title: O Guia dos Serverless das Galaxias - Introdução
-date: "2019-06-16T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "/posts/o-guia-dos-serverless-das-galaxias-introducao/"
-category: "Serverless"
-tags:
-  - "Nodejs"
-  - "Serverless"
-  - "Desenvolvimento"
-  - "BackEnd"
-  - "AWS"
-description: "Esse artigo faz parte de uma série onde compilo tudo que aprendi/estudo utilizando o modelo Serverless computing no meu dia a dia..."
----
+# O Guia dos Serverless das Galaxias - #1 - Introdução
+#aws #serverless
 
 ![Serverless Capa](https://i.ibb.co/c8N8sTg/serverless-capa.jpg)
 
-## [Esse artigo faz parte de uma série onde compilo tudo que aprendi/estudo utilizando o modelo Serverless computing no meu dia a dia.](http://malaquias.dev/pages/o-guia-dos-serverless-das-galaxias)
-
-Depois de décadas cuidando de servidores/infraestrutura para manter nossas aplicações ativas, conseguimos evoluir e embarcar tudo ou quase tudo que precisamos dentro de containers. Algum tempo depois eis que surge um novo modelo computacional que vem atraindo admiradores e ceticos a seu respeito. 
+Depois de décadas cuidando de servidores/infraestrutura para manter nossas aplicações ativas, conseguimos evoluir e embarcar tudo ou quase tudo que precisamos dentro de containers. Algum tempo depois eis que surge um novo modelo computacional que vem atraindo admiradores e céticos a seu respeito. 
 
 Na minha opinião esse modelo não está aqui para matar nenhum outro já existente, mas sim para agregar valor. Então mais uma vez venho pedir que pare de procurar soluções milagrosas onde não se existe e seja mais racional com suas escolhas.
 
@@ -78,6 +63,10 @@ Este aspecto do Serverless é muito importante a longo prazo. Por padrão as fun
 
 Se quiser entender mais como funciona uma aplicação orientada a eventos recomendo a leitura do artigo [Desenvolvimento de sistemas e Arquitetura baseada em Eventos da Paula Santana](https://medium.com/devs-javagirl/desenvolvimento-de-sistemas-e-arquitetura-baseada-em-eventos-3a9894f6a70a).
 
-## Conclusão
+- - - -
+## Finalizando…
+Se você gostou desse post não esquece de dar um like e compartilhar 😄
 
-Espero que você tenha gostado do artigo de hoje, se tiver alguma dúvida fique a vontade para me procurar nas redes como @malaquiasdev.
+Se quiser saber o que ando fazendo por ai ou tirar alguma dúvida fique a vontade para me procurar nas redes sociais como @ [malaquiasdev](https://twitter.com/malaquiasdev).
+
+Para ler mais post meus acesse [MalaquiasDEV | A Vida, o código e tudo mais](http://malaquias.dev).

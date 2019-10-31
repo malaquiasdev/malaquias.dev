@@ -1,22 +1,8 @@
----
-title: O Guia dos Serverless das Galaxias - Como chegamos até aqui?
-date: "2019-07-22T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "/posts/o-guia-dos-serverless-das-galaxias-como-chegamos-aqui/"
-category: "Serverless"
-tags:
-  - "Nodejs"
-  - "Serverless"
-  - "Desenvolvimento"
-  - "BackEnd"
-  - "AWS"
-description: "É importante entendermos como chegamos até aqui para que possamos tentar imaginar o que vem por aí..."
----
+# O Guia dos Serverless das Galaxias - #2 - Como chegamos até aqui?
+#aws #serverless
+
 
 ![Serverless Capa](https://i.ibb.co/c8N8sTg/serverless-capa.jpg)
-
-## [Esse artigo faz parte de uma série onde compilo tudo que aprendi/estudo utilizando o modelo Serverless computing no meu dia a dia.](http://malaquias.dev/pages/o-guia-dos-serverless-das-galaxias)
 
 Nesse momento imagino que você não está conseguindo conter a sua ansiedade por codar uma aplicação Serverless, sei que é fácil se empolgar (não vamos codar nesse artigo). Todavia é importante entendermos como chegamos até aqui para que possamos tentar imaginar o que vem por aí.
 
@@ -54,6 +40,10 @@ Voltamos para 2014 o nascimento do [AWS Lambda](https://aws.amazon.com/pt/lambda
 
 O modelo Serverless passou a abstrair como acontece a execução do código fazendo com que o provedor se torne o responsável por gerenciar todo o ambiente de execução do código dos seus clientes. Para os consumidores restou a responsabilidade de gerenciar o código da aplicação.
 
-## Conclusão
+- - - -
+## Finalizando…
+Se você gostou desse post não esquece de dar um like e compartilhar 😄
 
-Espero que você tenha gostado do artigo de hoje, se tiver alguma dúvida fique a vontade para me procurar nas redes como @malaquiasdev.
+Se quiser saber o que ando fazendo por ai ou tirar alguma dúvida fique a vontade para me procurar nas redes sociais como @ [malaquiasdev](https://twitter.com/malaquiasdev).
+
+Para ler mais post meus acesse [MalaquiasDEV | A Vida, o código e tudo mais](http://malaquias.dev).

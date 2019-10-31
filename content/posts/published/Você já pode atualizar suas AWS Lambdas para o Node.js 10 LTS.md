@@ -1,21 +1,5 @@
----
-title: Você já pode atualizar suas AWS Lambdas para o Node.js 10 LTS
-date: "2019-06-23T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "/posts/voce-pode-atualizar-aws-lambdas-nodejs-10-LTS/"
-category: "Serverless"
-tags:
-  - "Nodejs"
-  - "Serverless"
-  - "Desenvolvimento"
-  - "BackEnd"
-  - "AWS"
-description: "O Node.js 6.x foi mantido como LTS (suporte de longo prazo) desde de 2016 e o seu ciclo de vida chegou ao fim em 30 de abril de 2019. Logo essa versão não receberá novas atualizações de bugs críticos, correções de segurança, patches ou outras atualizações importantes, você já pode atualizar suas AWS Lambdas para o Node.js 10 LTS..."
----
-
-![](https://i.ibb.co/3c5qCrw/2019-06-23-09-26-57.jpg)
-
+# Você já pode atualizar suas AWS Lambdas para o Node.js 10 LTS
+#node #aws #serverless
 
 Não faz muito tempo que a [AWS anunciou que um dos seus serviços que mais uso (AWS Lambda) daria então suporte ao runtime do Node.js 10 LTS](https://aws.amazon.com/about-aws/whats-new/2019/05/aws_lambda_adds_support_for_node_js_v10/), isso provavelmente faz parte dos planos da empresa de cada vez mais suportar plataformas modernas nos seus serviços.
 
@@ -83,4 +67,10 @@ A maioria das aplicações em produção criadas usando Node.js fazem uso das ve
 
 Crie a cultura de manter não apenas o node como também suas dependências atualizadas, evitando surpresas como quebra de versão e problemas de segurança.
 
-Espero que você tenha gostado do artigo de hoje, se tiver alguma dúvida fique a vontade para me procurar nas redes como @malaquiasdev.
+- - - -
+## Finalizando…
+Se você gostou desse post não esquece de dar um like e compartilhar 😄
+
+Se quiser saber o que ando fazendo por ai ou tirar alguma dúvida fique a vontade para me procurar nas redes sociais como @ [malaquiasdev](https://twitter.com/malaquiasdev).
+
+Para ler mais post meus acesse [MalaquiasDEV | A Vida, o código e tudo mais](http://malaquias.dev).
