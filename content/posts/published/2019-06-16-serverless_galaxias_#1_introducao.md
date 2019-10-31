@@ -11,8 +11,7 @@ Digo isso porque ultimamente o Serverless vem sendo vendido como o auge da evolu
 
 Não estou aqui para lhe dar essa resposta, mas espero que até o final desse artigo **você consiga se responder**.
 
-## O que é Serverless?
-
+### O que é Serverless?
 Assim como ninguém mais se preocupa onde estão os cabos de internet ao usar uma rede wireless, na arquitetura serverless não nos preocupamos onde estão nossos servidores, mas isso não quer dizer que eles não existam.
 
 Basicamente nesse modelo não precisamos mais se preocupar como o nosso código será executado, ficando assim livre para pensar em onde (regiões) e quando ele será executado ou até mesmo se precisamos de código para ser executado na nossa solução.
@@ -21,9 +20,7 @@ As vezes nem precisamos escrever código, basta fazer com que os serviços se co
 
 Existem quatro características principais que definem uma aplicação/plataforma como Serverless:
 
-
-### Gerenciamento Zero
-
+#### Gerenciamento Zero
 Enquanto as plataformas como VMs e contêineres, ainda precisam de configuração e administração dos servidores, o serverless é uma experiência completamente diferente. Quando você estiver pronto(a) para implantar o código, não precisará provisionar nada antes ou gerenciar qualquer coisa depois.
 
 Ter que cuidar de servidores, VMs ou contêineres geram despesas além do computacional porque nessa conta temos que incluir número de funcionários, ferramentas, treinamento, tempo, energia, água, alimentação, transporte e etc.
@@ -32,8 +29,7 @@ São custos que nós pessoas desenvolvedoras não costumamos enxergar, mas eles 
 
 Aqui não se aplica mais o conceito de “capacidade pré-planejada” e nem se exige regras de “escalonamento automático”. O escalonamento acontece automaticamente e passado o período de pico se reduz os recursos de computação para que nunca haja capacidade ociosa.
 
-### Pague quando usar (ou não @.@)
-
+#### Pague quando usar (ou não @.@)
 Isso geralmente incentiva todo mundo a experimentar o modelo Serverless pela primeira vez. É muito atraente ter a utilização completa de recursos sem pagar um centavo por tempo ocioso. Ou seja, não a cobrança por instâncias de VMs ou contêineres em estado ocioso, logo só há cobrança quando o código é executado.
 
 No caso dos bancos de dados, não há nenhum custo para a capacidade de leitura/escrita, somente é cobrado o tempo de execução e a quantidade de dados trafegada. 
@@ -46,16 +42,14 @@ Quais são nossas métricas de uso dos serviços por dia/semana/mês/ano? Qual o
 
 Todas essas perguntas precisam ser levadas em consideração na hora de se utilizar Serverless.
 
-### Podemos ter uma função como unidade de implantação
-
+#### Podemos ter uma função como unidade de implantação
 Essa arquitetura é compostas por códigos muito pequenos, independentes e fracamente acoplados (lembra dos microsserviços?). A principal vantagem disso é que temos partes da aplicação organizadas de acordo com suas responsabilidades. Eles podem ser desenvolvidos e implantados de forma independente. O resultado é menos bloqueadores e maior autonomia e produtividade do desenvolvedor.
 
 Outro ponto importante que temos que ter em mente são os tamanhos de nossas funções, elas necessariamente não precisam ser pequenas demais, hoje a AWS suporta lambdas de até 250 megas por exemplo.
 
 Costumo utilizar como unidade de implantação um endpoint de uma API.
 
-
-### Event-Drive
+#### Event-Drive
 
 Este aspecto do Serverless é muito importante a longo prazo. Por padrão as funções não possuem estado de maquina e estão inativas até que algum evento as façam reagir. O evento é o que os traz à vida a uma função e fornece os dados/contexto para que ela possa realizar seu trabalho.
 
@@ -64,7 +58,7 @@ Este aspecto do Serverless é muito importante a longo prazo. Por padrão as fun
 Se quiser entender mais como funciona uma aplicação orientada a eventos recomendo a leitura do artigo [Desenvolvimento de sistemas e Arquitetura baseada em Eventos da Paula Santana](https://medium.com/devs-javagirl/desenvolvimento-de-sistemas-e-arquitetura-baseada-em-eventos-3a9894f6a70a).
 
 - - - -
-## Finalizando…
+### Finalizando…
 Se você gostou desse post não esquece de dar um like e compartilhar 😄
 
 Se quiser saber o que ando fazendo por ai ou tirar alguma dúvida fique a vontade para me procurar nas redes sociais como @ [malaquiasdev](https://twitter.com/malaquiasdev).
