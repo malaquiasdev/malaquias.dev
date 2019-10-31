@@ -10,3 +10,42 @@
 - title: O Guia dos Serverless das Galaxias - Introdução
   subtitle: aws serverless
   link: https://dev.to/malaquiasdev/voce-ja-pode-atualizar-suas-aws-lambdas-para-o-node-js-10-lts-207l
+- title: Como instalar Node.js no Linux corretamente
+  subtitle: nodejs linux nvm npm backend
+  link: https://medium.com/collabcode/como-instalar-node-js-no-linux-corretamente-ubuntu-debian-elementary-os-729fb4c92f2d
+- title: A importância do Java EE, JCP, Java EE Guardians e Microprofile
+  subtitle: Javaee Microprofile Java Jcpoa Javaeeguardian
+  link: https://medium.com/collabcode/a-importância-do-java-ee-jcp-java-ee-guardians-e-microprofile-e01494ea7a1b
+- title: Como usar o Optional do Java 8 com a JPA (Hibernate)
+  subtitle: Java8 Jpa Hibernate
+  link: https://medium.com/collabcode/como-usar-o-optional-do-java-8-com-a-jpa-hibernate-c1e48a4aa546
+- title: FINALMENTE! CDI 2.0 FOI LANÇADO!
+  subtitle: Java Cdi Java Ee Javabahia Backend
+  link: https://medium.com/collabcode/finalmente-cdi-2-0-foi-lançado-2911eec56ac8
+- title: Node.js Core - Mau começo!
+  subtitle: JavaScript Node Backend Nodejs
+  link: https://medium.com/collabcode/node-js-core-mau-começo-780d5cfa6e8b
+- title: Primeiro contato com “var” no Java 10
+  subtitle: Backend Java Jdk Java10
+  link: https://medium.com/collabcode/primeiro-contato-com-var-no-java-10-ac9ff5baaf17
+- title: Projeto Lombok Escrevendo menos código em Java
+  subtitle: Backend Java Jdk Lombok
+  link: https://medium.com/collabcode/projeto-lombok-escrevendo-menos-código-em-java-8fc87b379209
+- title: Pomodoro nosso de cada dia
+  subtitle: Pomodoro Produtividade Carreira Foco Agile
+  link: https://medium.com/collabcode/pomodoro-nosso-de-cada-dia-d84d104541c0  
+- title: Pomodoro nosso de cada dia
+  subtitle: Pomodoro Produtividade Carreira Foco Agile
+  link: https://medium.com/collabcode/pomodoro-nosso-de-cada-dia-d84d104541c0
+- title: Como é trabalhar com tecnologia como voz política, por Eduardo Cuducos
+  subtitle: Profissão Entrevista Sociology Politics Developer
+  link: https://medium.com/trainingcenter/como-é-trabalhar-com-tecnologia-como-voz-pol%C3%ADtica-por-eduardo-cuducos-8c53a8213d6b  
+- title: Como é trabalhar como Full Stack Designer, por Livia Gabos
+  subtitle: Profissão Entrevista Full Stack UX Design Frontend
+  link: https://medium.com/trainingcenter/como-é-trabalhar-como-full-stack-designer-por-livia-gabos-d729f5eb7e3e
+- title: Como Configurar Um Dominio Do Google Domains No Github Pages
+  subtitle: Infra Github Pages DevOps Desenvolvimento Jekyll
+  link: https://medium.com/collabcode/como-configurar-um-dominio-do-google-domains-no-github-pages-87324885bf11
+- title: Meu Controle De Qualidade Para Projetos Serverless Com Node.js
+  subtitle: Nodejs Serverless Qualidade Eslint Backend
+  link: https://medium.com/collabcode/meu-controle-de-qualidade-para-projetos-serverless-com-node-js-80c2c6939d0f
