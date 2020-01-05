@@ -10,7 +10,7 @@ tags:
   - "aws"
   - "serverless"
 description: ""
-socialImage: "/media/artigos/gerenciando-kits-dev-java-sdkman/capa.png"
+socialImage: "https://i.ibb.co/c8N8sTg/serverless-capa.jpg"
 ---
 
 ![Serverless Capa](https://i.ibb.co/c8N8sTg/serverless-capa.jpg)
