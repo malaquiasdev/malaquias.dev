@@ -1,2 +1,4 @@
-require('bootstrap/dist/js/bootstrap')
-require('bootstrap/dist/css/bootstrap.css')
+'use strict';
+
+require('./src/assets/scss/init.scss');
+require('./static/css/prismjs/theme.min.css');
