@@ -1,6 +1,9 @@
 language: node_js
+branches:
+  only:
+    - master
 node_js:
-  - "10"
+  - '10'
 install:
   - npm install -g codecov
 script:
