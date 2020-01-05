@@ -1,12 +1,12 @@
 {
-  "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "version": "1.0.0",
+  "name": "malaquiasdev",
+  "description": "Personal website of Mateus Malaquias",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "yarn run clean && gatsby build --prefix-paths && npx -n \"-r dotenv/config\" gatsby-plugin-s3 deploy --yes",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -16,8 +16,14 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malaquiasdev/malaquias.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/malaquiasdev/malaquias.dev/issues"
+  },
+  "author": "Mateus Malaquias <mateusmalaquiasdev@outlook.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -35,7 +41,8 @@
     "react",
     "theme",
     "starter",
-    "disqus"
+    "disqus",
+    "personal site"
   ],
   "dependencies": {
     "bluebird": "^3.7.2",
@@ -53,6 +60,7 @@
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-optimize-svgs": "^1.0.3",
     "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sass": "^2.1.26",
     "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-plugin-sitemap": "^2.2.24",

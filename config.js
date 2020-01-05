@@ -1,48 +1,50 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  url: "https://malaquias.dev",
+  pathPrefix: "/",
+  title: "MalaquiasDEV | A Vida, o código e tudo mais",
+  subtitle: "",
+  copyright:
+    "Conteúdo feito com 💞 por Mateus Malaquias. Site desenvolvido por alxshelepenok e malaquiasdev. Este trabalho está licenciado com uma Licença Internacional Creative Commons Attribution-NonCommercial 4.0.",
+  disqusShortname: "",
+  postsPerPage: 5,
+  googleAnalyticsId: "UA-68403924-1",
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "Artigos",
+      path: "/"
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "Sobre mim",
+      path: "/pages/about"
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: "Contato",
+      path: "/pages/contacts"
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: "Mateus Malaquias",
+    photo: "/photo.jpg",
+    bio:
+      "Baiano | Engenheiro de software na Claro Brasil | Gosto de compartilhar conhecimento escrevendo sobre coisas de tech ☕️",
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: ''
+      email: "mateusmalaquiasdev@outlook.com",
+      facebook: "mmalaquiasdev",
+      telegram: "malaquiasdev",
+      twitter: "malaquiasdev",
+      github: "malaquiasdev",
+      rss: "",
+      vkontakte: "",
+      linkedin: "mateus-malaquias-692532b5",
+      instagram: "malaquiasdev",
+      line: "",
+      gitlab: "",
+      weibo: "",
+      codepen: "",
+      youtube: ""
     }
   }
 };
