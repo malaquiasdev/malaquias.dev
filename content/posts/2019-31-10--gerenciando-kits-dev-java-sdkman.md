@@ -1,5 +1,5 @@
 ---
-title: Gerenciando kits de desenvolvimento Java, Kotlin e Clojure facilmente com o SDKMAN
+title: "Gerenciando kits de desenvolvimento Java, Kotlin e Clojure facilmente com o SDKMAN"
 date: "2019-10-31T23:46:37.121Z"
 template: "post"
 draft: false
