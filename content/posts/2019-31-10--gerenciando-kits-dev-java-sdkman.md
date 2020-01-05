@@ -1,17 +1,17 @@
 ---
-title: "Gerenciando kits de desenvolvimento Java, Kotlin e Clojure facilmente com o SDKMAN"
-date: "2019-10-31T23:46:37.121Z"
-template: "post"
+title: 'Gerenciando kits de desenvolvimento Java, Kotlin e Clojure facilmente com o SDKMAN'
+date: '2019-10-31T23:46:37.121Z'
+template: 'post'
 draft: false
-slug: "gerenciando-kits-dev-java-sdkman"
-category: "back-end"
+slug: 'gerenciando-kits-dev-java-sdkman'
+category: 'back-end'
 tags:
-  - "back-end"
-  - "kotlin"
-  - "clojure"
-  - "linux"
-description: ""
-socialImage: "/media/artigos/gerenciando-kits-dev-java-sdkman/capa.png"
+  - 'back-end'
+  - 'kotlin'
+  - 'clojure'
+  - 'linux'
+description: 'Você é uma pessoa que costuma trabalhar em projetos Java que possuem versões do SDKs (Software Development Kits) diferentes? No mundo Java não é incomum a necessidade de se trabalhar em versões mais antigas da plataforma como o Java 6 e 7 para corrigir problemas ou adicionar pequenas funcionalidades no projeto, entretanto, a maioria dos projetos mais recentes exige o Java 8 ou 11, o que na minha opinião torna a rotina de uma pessoa desenvolvedora Java um inferno, já que ficar alternando entre versões do SDK durante o seu dia de trabalho é um processo chato.'
+socialImage: '/media/artigos/gerenciando-kits-dev-java-sdkman/capa.png'
 ---
 
 ![Capa](/media/artigos/gerenciando-kits-dev-java-sdkman/capa.png)

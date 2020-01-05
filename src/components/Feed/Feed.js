@@ -11,7 +11,7 @@ type Props = {
 
 const Feed = ({ edges }: Props) => (
   <div className={styles['feed']}>
-    {edges.map((edge) => (
+    {edges.map(edge => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
           <time
@@ -35,7 +35,6 @@ const Feed = ({ edges }: Props) => (
             {edge.node.frontmatter.title}
           </Link>
         </h2>
-        <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
       </div>
     ))}
   </div>
