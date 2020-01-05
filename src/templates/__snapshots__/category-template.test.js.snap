@@ -278,11 +278,6 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 test_0
               </a>
             </h2>
-            <p
-              className="feed__item-description"
-            >
-              test_0
-            </p>
           </div>
           <div
             className="feed__item"
@@ -320,11 +315,6 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 test_1
               </a>
             </h2>
-            <p
-              className="feed__item-description"
-            >
-              test_1
-            </p>
           </div>
         </div>
         <div
