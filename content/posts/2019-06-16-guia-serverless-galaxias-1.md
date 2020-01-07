@@ -73,6 +73,8 @@ Arquiteturas orientadas a eventos não são novidade, mas a ascensão do modelo 
 
 Se quiser entender mais como funciona uma aplicação orientada a eventos recomendo a leitura do artigo [Desenvolvimento de sistemas e Arquitetura baseada em Eventos da Paula Santana](https://medium.com/devs-javagirl/desenvolvimento-de-sistemas-e-arquitetura-baseada-em-eventos-3a9894f6a70a).
 
+*Originally published on [dev.to](https://dev.to/collabcode/o-guia-dos-serverless-das-galaxias-introducao-16e3).*
+
 ---
 
 ## Finalizando…

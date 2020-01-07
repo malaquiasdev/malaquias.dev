@@ -51,6 +51,8 @@ Voltamos para 2014 o nascimento do [AWS Lambda](https://aws.amazon.com/pt/lambda
 
 O modelo Serverless passou a abstrair como acontece a execução do código fazendo com que o provedor se torne o responsável por gerenciar todo o ambiente de execução do código dos seus clientes. Para os consumidores restou a responsabilidade de gerenciar o código da aplicação.
 
+*Originally published on [dev.to](https://dev.to/collabcode/o-guia-dos-serverless-das-galaxias-como-chegamos-ate-aqui-15fg).*
+
 ---
 
 ## Finalizando…
