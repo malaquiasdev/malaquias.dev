@@ -10,17 +10,6 @@ exports[`Sidebar renders correctly 1`] = `
     <div
       className="author"
     >
-      <a
-        href="/"
-      >
-        <img
-          alt="Test name"
-          className="author__photo"
-          height="75"
-          src="/test.jpg"
-          width="75"
-        />
-      </a>
       <h1
         className="author__title"
       >
