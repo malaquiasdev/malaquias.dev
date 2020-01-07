@@ -1,5 +1,5 @@
 ---
-title: 'https://miro.medium.com/max/860/1*JHQ7FFeCX4rU35kid1stIw.jpeg'
+title: 'Como usar o Optional do Java 8 com a JPA (Hibernate)'
 date: '2017-02-20T23:46:37.121Z'
 template: 'post'
 draft: false
