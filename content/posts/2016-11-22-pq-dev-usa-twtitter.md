@@ -1,5 +1,5 @@
 ---
-title: Por que Desenvolvedores/Programadores usam Twitter?"
+title: 'Por que Desenvolvedores/Programadores usam Twitter?'
 date: '2016-11-22T23:46:37.121Z'
 template: 'post'
 draft: false
@@ -7,8 +7,7 @@ slug: 'pq-dev-usa-twtitter'
 category: 'carreira-e-entrevistas'
 tags:
   - 'carreira & entrevistas'
-  - 'aws'
-  - 'serverless'
+  - 'twitter'
 description: ''
 socialImage: 'https://miro.medium.com/max/400/1*Gadk4xw08cUY5r4UB3EBag.png'
 ---
