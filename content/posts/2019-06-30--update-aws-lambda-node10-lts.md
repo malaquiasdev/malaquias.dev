@@ -83,6 +83,8 @@ A maioria das aplicações em produção criadas usando Node.js fazem uso das ve
 
 Crie a cultura de manter não apenas o node como também suas dependências atualizadas, evitando surpresas como quebra de versão e problemas de segurança.
 
+*Originally published on [dev.to](https://dev.to/collabcode/voce-ja-pode-atualizar-suas-aws-lambdas-para-o-node-js-10-lts-207l).*
+
 ---
 
 ## Finalizando…

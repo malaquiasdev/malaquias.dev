@@ -142,6 +142,8 @@ Imagino que você já passou por esse sofrimento de instalar e gerenciar múltip
 
 Hoje você aprendeu como usar o SDKMAN para instalar diferentes versões, alternar entre versões e desinstalar, fizemos tudo isso usando o Java. Mas você pode usar esses mesmos métodos para lidar com a instalação de outras plataformas como Kotlin, Clojure (leiningen), Ant, Maven, Gradle, Spring Boot, Vert.x, Spark e Micronaut por exemplo.
 
+*Originally published on [dev.to](https://dev.to/collabcode/gerenciando-kits-de-desenvolvimento-java-kotlin-e-clojure-facilmente-com-o-sdkman-24d5).*
+
 ---
 
 ## Finalizando…
