@@ -6,7 +6,7 @@ const config = {
   copyright:
     'Conteúdo feito com 💞 por Mateus Malaquias. Site desenvolvido por alxshelepenok e malaquiasdev. Este trabalho está licenciado com uma Licença Internacional Creative Commons Attribution-NonCommercial 4.0.',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 10,
   googleAnalyticsId: 'UA-68403924-1',
   useKatex: false,
   menu: [
