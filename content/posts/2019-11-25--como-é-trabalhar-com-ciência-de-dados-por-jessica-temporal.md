@@ -6,11 +6,10 @@ draft: false
 slug: 'como-é-trabalhar-com-ciência-de-dados-por-jessica-temporal'
 category: 'carreira-entrevista'
 tags:
-  - 'nodejs'
-  - 'serverless'
-  - 'qualidade'
-  - 'eslint'
-  - 'prettier'
+  - 'profissao'
+  - 'entrevista'
+  - 'data science'
+  - 'carreira & entrevista'
 description: ''
 socialImage: 'https://miro.medium.com/max/1080/0*dqJw3RxvD52XfAUa'
 ---
