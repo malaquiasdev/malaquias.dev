@@ -10,8 +10,8 @@ tags:
   - 'tmux'
   - 'produtividade'
   - 'terminal'
-description: ''
-socialImage: '/media/artigos/tmux-para-iniciantes/capa.gif'
+description: 'Conheci o tmux na época em que tentei dar uma nova função para o meu IPad, a de ser uma máquina capaz de me permitir codar. O IPad ficou para trás e nesse texto vai lhe dou tour de poucos minutos no uso do tmux.'
+socialImage: '/media/artigos/tmux-para-iniciantes/sessao-nova.png'
 ---
 
 ![Capa](/media/artigos/tmux-para-iniciantes/capa.gif)
