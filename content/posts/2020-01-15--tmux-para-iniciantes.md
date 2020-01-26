@@ -192,9 +192,9 @@ Comandos básicos:
 - **<prefix> Tab** leva você para o último painel ativo
 - **<prefix> -** divide o painel atual verticalmente
 - **<prefix> \_** divide o painel atual horizontalmente
-- **<prefix> h, <prefix> j, <prefix> k **e** <prefix> l** navega pelos painéis como se tivesse usando o Vim
-- **<prefix> H, <prefix> J, <prefix> K **e** <prefix> L** redimensiona os painéis
-- **<prefix> ⇧, <prefix> ⇨, <prefix> ⇩ **e** <prefix> ⇦ **navega pelos painéis
+- **<prefix> h, <prefix> j, <prefix> k** e **<prefix> l** navega pelos painéis como se tivesse usando o Vim
+- **<prefix> H, <prefix> J, <prefix> K** e **<prefix> L** redimensiona os painéis
+- **<prefix> ⇧, <prefix> ⇨, <prefix> ⇩** e **<prefix> ⇦** navega pelos painéis
 - **<prefix> +** maximiza o painel atual em uma nova janela
 - **<prefix> m** ativa ou desativa o uso do mouse
 - **<prefix> Enter** entra no modo de cópia
