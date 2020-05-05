@@ -46,7 +46,7 @@ Durante um processo de atualização todas as invocações irão ser executadas 
 
 ### Inativo
 
-Inativo ou o famoso "cold start" é o estado de uma função quando ela fica sem ser executada por um determinado período de tempo ou quando a função precisa escalar rapidamente para atender muitas chamadas concorrentes. 
+Inativo, onde acontece o famoso "cold start" é o estado de uma função quando ela fica sem ser executada por um determinado período de tempo ou quando a função precisa escalar rapidamente para atender muitas chamadas concorrentes. 
 
 Esse estado existe para baratear os custos de infraestrutura do serviços, quando a função entra nesse estado todos os recursos externos que foram configurados para ela são removidos. 
 
