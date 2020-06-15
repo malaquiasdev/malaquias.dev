@@ -3,7 +3,7 @@ title: 'Publicando pacotes privados do NPM no Nexus repository'
 date: '2020-06-15T23:46:37.121Z'
 template: 'post'
 draft: false
-slug: 'publicando-pacotes-privados-NPM-nexus-repository.'
+slug: 'publicando-pacotes-privados-NPM-nexus-repository'
 category: 'devops'
 tags:
   - 'devops'
