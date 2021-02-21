@@ -3,7 +3,7 @@ title: "O Guia dos Serverless das Galaxias - #1 - Introdução"
 path: blog/guia-serverless-galaxias-1
 tags: [serverless]
 cover: ./serverless-capa.jpg
-date: 2019-21-20
+date: 2019-06-16
 excerpt: 
 ---
 
