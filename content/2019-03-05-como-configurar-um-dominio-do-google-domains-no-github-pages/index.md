@@ -1,20 +1,11 @@
 ---
-title: 'Como Configurar Um Dominio Do Google Domains No Github Pages'
-date: '2019-03-05T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'como-configurar-um-dominio-do-google-domains-no-github-pages'
-category: 'infra'
-tags:
-  - 'devops'
-  - 'githubpages'
-  - 'infra'
-  - 'jekyll'
-description: ''
-socialImage: 'https://i.ytimg.com/vi/2MsN8gpT6jY/maxresdefault.jpg'
+title: "Como Configurar Um Dominio Do Google Domains No Github Pages"
+path: blog/como-configurar-um-dominio-do-google-domains-no-github-pages
+tags: [devops]
+cover: ./githubpages.jpg
+date: 2019-03-05
+excerpt: 
 ---
-
-![capa](https://i.ytimg.com/vi/2MsN8gpT6jY/maxresdefault.jpg)
 
 [Recentemente os domínios .dev foram liberados ao público pelo Google](https://canaltech.com.br/internet/google-libera-dominio-dev-para-todos-duas-semanas-apos-lancamento-134053). Imaginei que essa seria uma boa oportunidade para criar finalmente o meu cantinho na internet.
 
@@ -28,7 +19,7 @@ Aqui vou supor que você já possui um repositório criado, está usando o Githu
 
 ## Configurando o DNS no Google Domains
 
-![google domains console](https://miro.medium.com/max/2224/0*N2R-g2jASQd8AUNK.jpeg)
+<img src="https://miro.medium.com/max/2224/0*N2R-g2jASQd8AUNK.jpeg" alt="google domains console" width="600"/>
 
 Vá até o seu painel no Google Domains e clique em **MANAGE**, clique em **DNS** e depois vá direto para a sessão **Custom resource records**.
 
@@ -47,7 +38,7 @@ Caso esse artigo tenha ficado datado recomendo que você acesse a pagina [**Sett
 
 Adicionados os quatro IPs agora podemos adicionar um novo recurso do tipo CNAME e o seu valor vai apontar para a URL que o Github Pages te forneceu quando você configurou o seu repositório, no meu caso o foi malaquaisdev.github.io
 
-![console do DNS](https://miro.medium.com/max/2224/0*vqM3yx7g4b-puFX-.jpeg)
+<img src="https://miro.medium.com/max/2224/0*vqM3yx7g4b-puFX-.jpeg" alt="console do DNS" width="600"/>
 
 ## Configurando seu CNAME no Github
 
@@ -55,7 +46,7 @@ Existem duas maneiras de se configurar um CNAME, podemos criar o arquivo na mão
 
 Vamos fazer da maneira mais simples e delegar essa responsabilidade para o Github, então vá até a página settings do seu repositório.
 
-![github settings path](https://miro.medium.com/max/2224/0*fRGQsZEGCcVNgbb1.jpeg)
+<img src="https://miro.medium.com/max/2224/0*fRGQsZEGCcVNgbb1.jpeg" alt="github settings path" width="600"/>
 
 Feito isso, desça até sessão do Github Pages e adicione um custom domain que é o domínio comprado e configurado por você e salve.
 
@@ -63,7 +54,7 @@ Feito isso, desça até sessão do Github Pages e adicione um custom domain que 
 
 HTTPS é um recurso muito importante de se ter hoje em dia para que os navegadores reconheçam aquela requisição como segura. O massa é que o Github Pages nos oferta isso de graça, basta que a gente marque a opção Enforce HTTPS, ela pode não esta habilitada logo de cara então espere alguns minutos e tente novamente se for o caso.
 
-![github settings pagina](https://miro.medium.com/max/2224/0*EVgDJHLkElshmsaI.jpeg)
+<img src="https://miro.medium.com/max/2224/0*EVgDJHLkElshmsaI.jpeg" alt="github settings pagina" width="600"/>
 
 Por último não esqueça de alterar a URL do seu site no arquivo de configurações do Jekyll para que essas configurações funcionem.
 
