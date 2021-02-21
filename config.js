@@ -18,7 +18,7 @@ module.exports = {
     twitter: 'https://twitter.com/malaquiasdev',
     instagram: 'https://www.instagram.com/malaquiasdev/',
     linkedin: 'https://www.linkedin.com/in/mateus-malaquias-692532b5/',
-    email: 'mateusmalaquiasdev@outlook.com',
+    mail: 'mateusmalaquiasdev@outlook.com',
     rss: '/rss.xml',
   },
   contactFormUrl:
