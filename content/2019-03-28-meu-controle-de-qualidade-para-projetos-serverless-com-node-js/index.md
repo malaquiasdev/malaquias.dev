@@ -1,21 +1,11 @@
 ---
-title: 'Como é trabalhar como Full Stack Designer, por Livia Gabos'
-date: '2019-03-28T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'meu-controle-de-qualidade-para-projetos-serverless-com-node-js'
-category: 'back-end'
-tags:
-  - 'nodejs'
-  - 'serverless'
-  - 'qualidade'
-  - 'eslint'
-  - 'prettier'
-description: ''
-socialImage: 'https://miro.medium.com/max/1000/0*bFJIvaOTLx81VSbU.jpg'
+title: "Meu Controle De Qualidade Para Projetos Serverless Com Node.js"
+path: blog/meu-controle-de-qualidade-para-projetos-serverless-com-node-js
+tags: [nodejs, serverless]
+cover: ./qualidade.jpg
+date: 2019-03-28
+excerpt: 
 ---
-
-![capa](https://miro.medium.com/max/1000/0*bFJIvaOTLx81VSbU.jpg)
 
 Com quase um ano trabalhando com Serverless, Node.js e JavaScript pude perceber o quão flexível essa stack é! Também pude perceber como o estilo de escrever código de cada pessoa que participa do projeto pode deixar a manutenibilidade do mesmo um caos.
 
