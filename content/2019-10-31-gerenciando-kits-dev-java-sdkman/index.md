@@ -4,7 +4,7 @@ path: blog/gerenciando-kits-dev-java-sdkma
 tags: [java]
 cover: ./capa.png
 date: 2019-10-31
-excerpt: 
+excerpt: "Você é uma pessoa que costuma trabalhar em projetos Java que possuem versões do SDKs (Software Development Kits) diferentes? O SDKMAN é uma ferramenta CLI (terminal) que nos ajuda a gerenciar vários kits de desenvolvimento. Ele nos fornece uma maneira conveniente de instalar, alternar, listar e remover verões"
 ---
 
 Você é uma pessoa que costuma trabalhar em projetos Java que possuem versões do SDKs (Software Development Kits) diferentes?

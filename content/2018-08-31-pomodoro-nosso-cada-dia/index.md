@@ -4,7 +4,7 @@ path: blog/pomodoro-nosso-cada-dia
 tags: [produtividade]
 cover: ./pomodoro.jpeg
 date: 2018-08-31
-excerpt: 
+excerpt: "Pomo… doro… Pomodoro?"
 ---
 
 Não se preocupe, não tenho [TDA e muito menos TDH!](https://tutores.com.br/blog/tda-e-tdh/) Apenas sou desatento para uns e criativo para outros.

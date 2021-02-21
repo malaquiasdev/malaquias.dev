@@ -4,7 +4,7 @@ path: blog/como-é-trabalhar-com-tecnologia-como-voz-politica-por-eduardo-cuduco
 tags: [carreira]
 cover: ./cuducos.jpeg
 date: 2018-09-03
-excerpt: 
+excerpt: "O entrevistado desta vez é um geek, sociólogo e Cofundador da Operação Serenata de Amor, Eduardo Cuducos mais conhecido como Cuducos"
 ---
 
 Esse post é parte de uma série de entrevistas para o Training Center sobre o que um profissional pode dizer a respeito da sua área de atuação visando mostrar para outras pessoas como é trabalhar no que fazem, esclarecendo para algumas pessoas se elas se dariam bem trabalhando na área ou mesmo só para mostrar para outras pessoas como é trabalhar com isso.

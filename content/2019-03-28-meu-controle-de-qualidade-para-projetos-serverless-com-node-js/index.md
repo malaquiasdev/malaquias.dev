@@ -4,7 +4,7 @@ path: blog/meu-controle-de-qualidade-para-projetos-serverless-com-node-js
 tags: [nodejs, serverless]
 cover: ./qualidade.jpg
 date: 2019-03-28
-excerpt: 
+excerpt: "No artigo de hoje quero compartilhar com vocês um pouco de informação a respeito dessas ferramentas e quais regras utilizamos no meu time, provavelmente para a maioria das aplicações essas regras podem ser “too much”"
 ---
 
 Com quase um ano trabalhando com Serverless, Node.js e JavaScript pude perceber o quão flexível essa stack é! Também pude perceber como o estilo de escrever código de cada pessoa que participa do projeto pode deixar a manutenibilidade do mesmo um caos.

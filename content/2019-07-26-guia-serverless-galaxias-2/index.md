@@ -4,7 +4,7 @@ path: blog/guia-serverless-galaxias-2
 tags: [serverless]
 cover: ./serverless-capa.jpg
 date: 2019-07-26
-excerpt: 
+excerpt: "Um breve resumo de como saimos dos sistemas embarcadas em servidores até chegar em sistemas serverless"
 ---
 
 Nesse momento imagino que você não está conseguindo conter a sua ansiedade por codar uma aplicação Serverless, sei que é fácil se empolgar (não vamos codar nesse artigo). Todavia é importante entendermos como chegamos até aqui para que possamos tentar imaginar o que vem por aí.

@@ -4,7 +4,7 @@ path: blog/finalmente-cdi-2-lancado
 tags: [java]
 cover: ./cdi.png
 date: 2017-08-03
-excerpt: 
+excerpt: "O CDI é a minha segunda especificação Java EE favorit A versão 2.0 acabou de sair do forno para se integrar ao aglomerado de especificações atualizadas para o versão Java EE 8. Todavia agora temos uma super novidade: podemos usar CDI também na plataforma Java SE e facilmente com Microprofile"
 ---
 
 O CDI é a minha segunda especificação Java EE favorita. Resumidamente, ela é responsável pela injeção de dependência e contexto na plataforma. As boas línguas dizem que ela foi uma das grandes novidades quando introduzida no Java EE 6, lá em 2009. Quando comecei a programar com Java EE 7, ela já era bastante adotada no lugar da especificação EJB.

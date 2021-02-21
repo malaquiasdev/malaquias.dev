@@ -4,7 +4,7 @@ path: blog/como-configurar-um-dominio-do-google-domains-no-github-pages
 tags: [devops]
 cover: ./githubpages.jpg
 date: 2019-03-05
-excerpt: 
+excerpt: "Um passo a passo para você configurar um dominio comprado no Google Domains no github pages"
 ---
 
 [Recentemente os domínios .dev foram liberados ao público pelo Google](https://canaltech.com.br/internet/google-libera-dominio-dev-para-todos-duas-semanas-apos-lancamento-134053). Imaginei que essa seria uma boa oportunidade para criar finalmente o meu cantinho na internet.

@@ -4,7 +4,7 @@ path: blog/tmux-para-iniciantes
 tags: [produtividade]
 cover: ./sessao-ativa.png
 date: 2020-01-15
-excerpt: 
+excerpt: "Esse texto vai lhe levar em um tour de poucos minutos no uso do tmux e suas possibilidades. Se você tem um tempinho livre, peço então humildemente que me dê a honra de lhe ensinar o pouco que sei sobre o tmux, continue lendo!"
 ---
 
 Conheci o tmux na época em que tentei dar uma nova função para o meu IPad, a de ser uma máquina capaz de me permitir codar (é possível fazer isso com um Surface Pro). Para tentar derrubar as limitações impostas na época pelo IOS tentei usar editor de texto, acessar um Raspberry Pie, até que cheguei a brilhante ideia (ironia) de criar um servidor EC2 na AWS e acessar ele via SSH.

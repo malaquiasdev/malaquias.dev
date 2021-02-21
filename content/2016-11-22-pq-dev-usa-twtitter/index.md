@@ -4,7 +4,7 @@ path: blog/pq-dev-usa-twtitter
 tags: [carreira]
 cover: ./tweet-tweet.png
 date: 2016-11-22
-excerpt: 
+excerpt: "Uma reflexão de como o twitter me fez ser um desenvolver mais engajado com a tecnologia"
 ---
 
 Nos últimos 4 meses a comunidade Java Bahia me fez andar por varias universidades/faculdades e em todas elas perguntamos (não andei sozinho por aí) durante as palestras quem tinha costume de usar o Twitter. Infelizmente não tive o insight de fazer uma estatística disso, mas deu para notar que poucos desenvolvedores/programadores possuem o costume de frequentar a rede social.
