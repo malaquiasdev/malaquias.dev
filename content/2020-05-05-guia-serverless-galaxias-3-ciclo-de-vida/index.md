@@ -1,19 +1,11 @@
 ---
 title: "O Guia dos Serverless das Galáxias #3 - Entendendo o ciclo de vida de uma função lambda"
-date: "2020-05-05T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "guia-serverless-galaxias-3-ciclo-de-vida"
-category: "back-end"
-tags:
-  - "back-end"
-  - "aws"
-  - "serverless"
-description: "Quando a gente cria ou atualiza uma função, na maioria dos casos, esse processo é muito rápido e as nossas funções estão prontas para executar quase que imediatamente. Neste post, vamos entender os estados de uma função, as condições de cada estado e como ocorre a transição entre eles."
-socialImage: "/media/artigos/2020-05-05--guia-serverless-galaxias-3-ciclo-de-vida/cover.png"
+path: blog/guia-serverless-galaxias-3-ciclo-de-vida
+tags: [serverless]
+cover: ./serverless-capa.jpg
+date: 2020-05-05
+excerpt: 
 ---
-
-![Serverless Capa](/media/artigos/2020-05-05--guia-serverless-galaxias-3-ciclo-de-vida/cover.png)
 
 Quando a gente cria ou atualiza uma função, na maioria dos casos, esse processo é muito rápido e as nossas funções estão prontas para executar quase que imediatamente. 
 
@@ -75,7 +67,7 @@ Outro ponto importante durante o processo é que as funções só podem ser atua
 Como não conseguimos mover manualmente uma função entre os seus estados, a transição entre os estados acaba dependendo das ações que executamos diretamente sobre as funções.
 
 
-![Fluxograma do ciclo de vida de uma função](/media/artigos/2020-05-05--guia-serverless-galaxias-3-ciclo-de-vida/ciclo-de-vida.png)
+![Fluxograma do ciclo de vida de uma função](./ciclo-de-vida.png)
 
 Para todas as funções, o ciclo de vida do estado primário se parece com o seguinte:
 
@@ -90,7 +82,7 @@ Para todas as funções, o ciclo de vida do estado primário se parece com o seg
 
 ### Ciclo de vida de uma função durante o processo de atualização
 
-![Fluxograma do ciclo de vida de uma função durante o processo de atualização](/media/artigos/2020-05-05--guia-serverless-galaxias-3-ciclo-de-vida/ciclo-de-vida-processo-atualizacao.png)
+![Fluxograma do ciclo de vida de uma função durante o processo de atualização](./ciclo-de-vida-processo-atualizacao.png)
 
 Para atualizar funções, o ciclo de vida é o seguinte:
 
