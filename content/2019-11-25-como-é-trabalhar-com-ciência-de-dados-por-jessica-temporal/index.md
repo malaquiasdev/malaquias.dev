@@ -1,7 +1,7 @@
 ---
 title: "Como é trabalhar com Ciência de Dados, por Jessica Temporal"
 path: blog/como-é-trabalhar-com-ciência-de-dados-por-jessica-temporal
-tags: [carreira-e-entrevistas]
+tags: [carreira]
 cover: ./jessicatemporal.jpg
 date: 2019-11-25
 excerpt: 

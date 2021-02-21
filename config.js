@@ -74,5 +74,41 @@ module.exports = {
         'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
+    devops: {
+      name: 'devops',
+      description:
+        'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+    serverless: {
+      name: 'serverless',
+      description:
+        'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+    produtividade: {
+      name: 'produtividade',
+      description:
+        'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+    carreira: {
+      name: 'carreira',
+      description:
+        'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+    java: {
+      name: 'java',
+      description:
+        'A markup language that powers the web. All websites use HTML for structuring the content.',
+      color: '#dd3431',
+    },
+    aws: {
+      name: 'aws',
+      description:
+        'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
   },
 };
