@@ -1,19 +1,11 @@
 ---
 title: "Guia dos Serverless das Galaxias - #2 - Como chegamos até aqui?"
-date: "2019-07-26T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "guia-serverless-galaxias-2"
-category: "back-end"
-tags:
-  - "back-end"
-  - "aws"
-  - "serverless"
-description: ""
-socialImage: "https://i.ibb.co/c8N8sTg/serverless-capa.jpg"
+path: blog/guia-serverless-galaxias-2
+tags: [serverless]
+cover: ./serverless-capa.jpg
+date: 2019-07-26
+excerpt: 
 ---
-
-![Serverless Capa](https://i.ibb.co/c8N8sTg/serverless-capa.jpg)
 
 Nesse momento imagino que você não está conseguindo conter a sua ansiedade por codar uma aplicação Serverless, sei que é fácil se empolgar (não vamos codar nesse artigo). Todavia é importante entendermos como chegamos até aqui para que possamos tentar imaginar o que vem por aí.
 
