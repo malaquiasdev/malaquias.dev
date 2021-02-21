@@ -56,6 +56,14 @@ const AboutMe = () => {
           </Col>
           <Col xs={24} sm={24} md={12} lg={8}>
             <AboutTile
+              img="snake.svg"
+              alt="imagem de uma cobra"
+              textH4="Serpentes"
+              textH3="Sou apaixonado por serpentes e sempre que possivel estou estudando sobre elas."
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12} lg={8}>
+            <AboutTile
               img="blog.svg"
               alt="imagem da logo do blogger"
               textH4="Blog"
