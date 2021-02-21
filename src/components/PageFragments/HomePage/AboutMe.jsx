@@ -6,90 +6,65 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: 'Olá!! Sou natural de <b>Maragogipe</b> uma pequena cidade do interior da Bahia, atualmente demonstro toda a força do dendê da Bahia em São Paulo/SP trabalhando como tech lead na Claro Brasil.',
+  paraTwo: 'Ataulmente atuou como backend tech lead em <b>um produto e dois projetos no setor de transformação digital</b> da Claro Brasil, sendo eles: Uma plataforma de streaming video, uma plataforma interna para enviar PUSH Notification e um projeto de recomendação de conteúdos.',
+  paraThree: 'Tenho trabalhado constamente com tecnologias <b>NodeJS</b> e com serviços da <b>AWS</b>, como por exemplo: <b>CloudFront (CDN), S3, AWS API Gateway, AWS Lambda, Step Functions, AWS Fargate, CloudWatch, X-RAY, DynamoDB, AWS Pinpoint, AWS Athena, AWS SQS, AWS SNS, AWS RDS, AWS Elasticache.</b>',
 };
 
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = `${stripTags(pageText.paraOne)} ${stripTags(pageText.paraTwo)} ${stripTags(pageText.paraThree)}`;
   return (
     <>
       <div>
         <SEO
-          title="About"
+          title="Sobre"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Mateus', 'Malaquias', 'Bahia', 'backend', 'tech lead', 'Javascript', 'NodeJS', 'AWS', 'CloudFront (CDN)', 'S3', 'API Gateway', 'AWS Lambda', 'Step Functions', 'AWS Fargate', 'CloudWatch', 'X-RAY', 'DynamoDB', 'AWS Pinpoint', 'AWS Athena', 'AWS SQS', 'AWS SNS', 'AWS RDS', 'AWS Elasticache']}
         />
-        <h1 className="titleSeparate">About Me</h1>
-        <p>
-          {pageText.paraOne}
-        </p>
+        <h1 className="titleSeparate">Sobre Malaquias</h1>
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
       </div>
-      <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="location.png"
-            height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
-            height={60}
-            width={60}
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
-            height={60}
-            width={60}
-          />
-        </Col>
-      </Row>
+      <div>
+        <h2>Hobbies</h2>
+        <Row gutter={[20, 20]}>
+          <Col xs={24} sm={24} md={12} lg={8}>
+            <AboutTile
+              img="running.svg"
+              alt="imagem de um tênis de corrida"
+              textH4="Correr ao ar livre"
+              textH3="Um dos meus passatempos preferidos é correr nos parques das cidade."
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12} lg={8}>
+            <AboutTile
+              img="book-stack.svg"
+              alt="imagem de uma pilha de livros"
+              textH4="Leitura"
+              textH3="Sou um ávido leitor de mangás, comic books e livros de ficção."
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12} lg={8}>
+            <AboutTile
+              img="game-controller.svg"
+              alt="imagem de um controle de video game"
+              textH4="Jogos"
+              textH3="Sempre que me sobra um tempo, jogo uma ou duas partidinhas de Fifa no PS4."
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12} lg={8}>
+            <AboutTile
+              img="coffee.png"
+              alt="imagem de um café"
+              textH4="Café"
+              textH3="Quem não gosta de tomar um café?"
+            />
+          </Col>
+        </Row>
+        <br />
+      </div>
     </>
   );
 };
