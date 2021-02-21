@@ -4,6 +4,7 @@ import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
+import Hobbies from '../components/PageFragments/HomePage/Hobbies';
 import Skills from '../components/PageFragments/HomePage/SkillProgress';
 
 export default () => (
@@ -13,6 +14,7 @@ export default () => (
       <SidebarWrapper>
         <>
           <AboutMe />
+          <Hobbies />
           <Skills />
         </>
       </SidebarWrapper>
