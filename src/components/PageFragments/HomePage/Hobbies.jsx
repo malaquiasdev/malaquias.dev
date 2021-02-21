@@ -49,7 +49,7 @@ const Hobbies = () => (
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
+            img="coffee-break.svg"
             alt="imagem de um café"
             textH4="Café"
             textH3="Quem não gosta de tomar um café?"
