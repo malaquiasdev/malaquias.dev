@@ -1,19 +1,11 @@
 ---
 title: "O Guia dos Serverless das Galaxias - #1 - Introdução"
-date: "2019-06-16T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "guia-serverless-galaxias-1"
-category: "back-end"
-tags:
-  - "back-end"
-  - "aws"
-  - "serverless"
-description: ""
-socialImage: "https://i.ibb.co/c8N8sTg/serverless-capa.jpg"
+path: blog/guia-serverless-galaxias-1
+tags: [serverless]
+cover: ./serverless-capa.jpg
+date: 2019-21-20
+excerpt: 
 ---
-
-![Serverless Capa](https://i.ibb.co/c8N8sTg/serverless-capa.jpg)
 
 Depois de décadas cuidando de servidores/infraestrutura para manter nossas aplicações ativas, conseguimos evoluir e embarcar tudo ou quase tudo que precisamos dentro de containers. Algum tempo depois eis que surge um novo modelo computacional que vem atraindo admiradores e ceticos a seu respeito.
 
