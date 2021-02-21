@@ -7,6 +7,12 @@ module.exports = [
   'gatsby-plugin-less',
   'gatsby-plugin-offline',
   {
+    resolve: 'gatsby-plugin-s3',
+    options: {
+      bucketName: process.env.S3_BUCKET_NAME || 'develop',
+    },
+  },
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       name: 'images',

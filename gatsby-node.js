@@ -1,8 +1,8 @@
 /* Vendor imports */
-const path = require("path");
+const path = require('path');
 /* App imports */
-const config = require("./config");
-const utils = require("./src/utils/pageUtils");
+const config = require('./config');
+const utils = require('./src/utils/pageUtils');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -36,12 +36,12 @@ exports.createPages = ({ actions, graphql }) => {
 
       createPage({
         path: node.frontmatter.path,
-        component: path.resolve("src/templates/post/post.jsx"),
+        component: path.resolve('src/templates/post/post.jsx'),
         context: {
           postPath: node.frontmatter.path,
           translations: utils.getRelatedTranslations(
             node,
-            allMarkdownRemark.edges
+            allMarkdownRemark.edges,
           ),
         },
       });
@@ -49,7 +49,7 @@ exports.createPages = ({ actions, graphql }) => {
     const regexForIndex = /index\.md$/;
     // Posts in default language, excluded the translated versions
     const defaultPosts = allMarkdownRemark.edges.filter(
-      ({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex)
+      ({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex),
     );
 
     /* Tag pages */
@@ -63,7 +63,7 @@ exports.createPages = ({ actions, graphql }) => {
     allTags.forEach((tag) => {
       createPage({
         path: utils.resolvePageUrl(config.pages.tag, tag),
-        component: path.resolve("src/templates/tags/index.jsx"),
+        component: path.resolve('src/templates/tags/index.jsx'),
         context: {
           tag,
         },

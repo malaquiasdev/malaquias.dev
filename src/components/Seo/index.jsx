@@ -62,7 +62,7 @@ function SEO({
                 { property: 'og:image', content: metaImageUrl },
                 { property: 'og:image:alt', content: description },
                 { property: 'og:site_name', content: Config.siteTitle },
-                { property: 'og:locale', content: lang || 'en_US' },
+                { property: 'og:locale', content: lang || 'pt-br' },
                 /* Twitter card */
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:title', content: title },
@@ -122,7 +122,7 @@ SEO.propTypes = {
 };
 
 SEO.defaultProps = {
-  lang: 'en_US',
+  lang: 'pt-br',
   contentType: 'website',
   imageUrl: null,
   keywords: [],
