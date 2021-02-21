@@ -1,19 +1,11 @@
 ---
-title: 'Publicando pacotes privados do NPM no Nexus repository'
-date: '2020-06-15T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'publicando-pacotes-privados-NPM-nexus-repository'
-category: 'devops'
-tags:
-  - 'devops'
-  - 'npm'
-  - 'nexus'
-description: 'Neste artigo vamos ver um resumo de porque escolhemos o Nexus como repositório privado, como configura-ló para funcionar com o NPM e como conseguir consumir os pacotes guardados no Nexus.'
-socialImage: '/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/capa-do-artigo-nexus.jpg'
+title: "Publicando pacotes privados do NPM no Nexus repository"
+path: blog/publicando-pacotes-privados-NPM-nexus-repository
+tags: [devops]
+cover: ./capa-do-artigo-nexus.jpg
+date: 2020-06-15
+excerpt: 
 ---
-
-![Capa do artigo](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/capa-do-artigo-nexus.jpg)
 
 Atualmente trabalho com JavaScript e Node.js em uma grande operadora daqui do Brasil e muitas de nossas soluções não podem estar públicas na internet por questões de segurança.
 
@@ -35,7 +27,7 @@ No momento que estou escrevendo esse artigo o NPM a nível enterprise que possu�
 
 Com 10 mil dólares nosso time de DevOps é capaz de subir toda infraestrutura necessária, configurar backups regulares, camadas de segurança e ainda vai sobrar bastante dinheiro porque o Nexus pode atender diversas plataformas de programação.
 
-![Nexus diagrama](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus.png)
+![Nexus diagrama](./nexus.png)
 
 Se você só utiliza JavaScript em seus projetos e pode pagar pelos produtos oferecidos pelo NPM ou não possuiu um time que possa manter uma infraestrutura decente para você, recomendo optar pelo NPM.
 
@@ -49,7 +41,7 @@ Por padrão sempre que a gente consumir um pacote publico o Nexus vai criar um c
 
 No final de nossa configuração teremos a seguinte somatória `group = hosted + proxy` e nosso fluxo de uso será sempre baixar os pacotes do `group` e fazer uploads para o `hosted`.
 
-![Nexus Repositorios](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus-repositories.png)
+![Nexus Repositorios](./nexus-repositories.png)
 
 No fim, vamos arregaçar um pouco as mangas e entender.
 
@@ -61,7 +53,7 @@ Para criar um repositório do tipo `hosted` vá em `Settings => Repository => Re
 
 Depois de clicar em **Create Repository** o Nexus vai nos exibir uma quantidade enorme de plataformas que gerenciam dependências. Se for sua primeira vez usando Nexus, aproveite a oportunidade para da uma explorada no que a plataforma pode te oferecer.
 
-![Nexus Repositorios](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus-npm-all.png)
+![Nexus Repositorios](./nexus-npm-all.png)
 
 Dessa lista vamos focar no **npm**, o primeiro repositório que vamos será `npm(hosted)`.
 
@@ -69,7 +61,7 @@ Na tela de criação o Nexus vai nos solicitar um nome **único** e em storage v
 
 E é isso, basta clicar no botão **Create Repository** para finalizar.
 
-![Nexus NPM Private](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus-npm-private.png)
+![Nexus NPM Private](./nexus-npm-private.png)
 
 ## Criando um proxy e grupo do NPM
 
@@ -77,7 +69,7 @@ Volte novamente para `Repository => Repositories => Create Repository`, para cri
 
 Na tela de configuração nos vamos especificar que queremos nos comunicar com o NPM no campo **Proxy Location** adicionando a URL `https://registry.npmjs.org`.
 
-![Nexus NPM Proxy](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus-npm-proxy.png)
+![Nexus NPM Proxy](./nexus-npm-proxy.png)
 
 Com os repositórios `npm(hosted) e npm(proxy)` criados, podemos finalmente criar o `npm(group)`.
 
@@ -85,7 +77,7 @@ O fluxo de configurações é igual aos anteriores, coloque um nome e informe o 
 
 Além disso precisamos selecionar os usuários ou grupos que podem acessar o repositório `npm(group)`.
 
-![Nexus NPM Group](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/nexus-npm-group.png)
+![Nexus NPM Group](./nexus-npm-group.png)
 
 ## Enviando pacotes para o Nexus
 
@@ -140,11 +132,11 @@ Digite seu usuário e senha do nexus e pronto. 🧞
 
 Agora basta executar o comando: `npm publish` .
 
-![NPM Publish](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/npm-publish-command.png)
+![NPM Publish](./npm-publish-command.png)
 
 Se tudo deu certo você vai conseguir verificar sua lib hospedado acessando o repositório privado.
 
-![Verificando lib no Nexus](/media/artigos/2020-06-15--publicando-pacotes-privados-NPM-nexus-repository/verificando-lib-repo-nexus.png)
+![Verificando lib no Nexus](./verificando-lib-repo-nexus.png)
 
 ## Baixando seus pacotes do Nexus
 
