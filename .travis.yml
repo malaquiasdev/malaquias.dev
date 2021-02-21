@@ -3,15 +3,10 @@ branches:
   only:
     - master
 node_js:
-  - '10'
-install:
-  - npm install -g codecov
+  - "12"
 script:
   - echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
   - yarn install
-  - yarn test:coverage --runInBand --no-cache
-  - yarn test --runInBand --no-cache
-  - codecov
   - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY S3_BUCKET_NAME=$S3_BUCKET_NAME npm run deploy
 cache:
   directories:
