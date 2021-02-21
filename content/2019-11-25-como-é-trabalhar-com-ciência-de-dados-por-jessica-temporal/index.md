@@ -4,7 +4,7 @@ path: blog/como-é-trabalhar-com-ciência-de-dados-por-jessica-temporal
 tags: [carreira]
 cover: ./jessicatemporal.jpg
 date: 2019-11-25
-excerpt: 
+excerpt: "A entrevistada desta vez é informata biomédica, desenvolvedora, hacker de dados e podcaster. Uma mulher forte, trabalhadora, dedicada que nas horas vagas assiste bastante seriado e gosta de cuidar do seu jardim. Hoje vamos conhecer um pouco da profissão da Jessica Temporal"
 ---
 
 #### Esse post é uma entrevista sobre o que um(a) profissional pode dizer a respeito da sua área de atuação visando mostrar para outras pessoas como é trabalhar no que fazem, esclarecendo para algumas pessoas se elas se dariam bem trabalhando na área ou mesmo só para mostrar para outras pessoas como é trabalhar com isso.

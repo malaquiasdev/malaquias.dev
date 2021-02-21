@@ -4,7 +4,7 @@ path: blog/guia-serverless-galaxias-1
 tags: [serverless]
 cover: ./serverless-capa.jpg
 date: 2019-06-16
-excerpt: 
+excerpt: "Depois de décadas cuidando de servidores/infraestrutura para manter nossas aplicações ativas, conseguimos evoluir e embarcar tudo ou quase tudo que precisamos dentro de containers. Algum tempo depois eis que surge um novo modelo computacional que vem atraindo admiradores e ceticos a seu respeito"
 ---
 
 Depois de décadas cuidando de servidores/infraestrutura para manter nossas aplicações ativas, conseguimos evoluir e embarcar tudo ou quase tudo que precisamos dentro de containers. Algum tempo depois eis que surge um novo modelo computacional que vem atraindo admiradores e ceticos a seu respeito.

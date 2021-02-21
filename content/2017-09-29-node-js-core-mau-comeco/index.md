@@ -4,7 +4,7 @@ path: blog/node-js-core-mau-comeco
 tags: [nodejs]
 cover: ./nodejs-logo.jpeg
 date: 2017-09-29
-excerpt: 
+excerpt: "Uma reflexão de como comecei errado a aprender sobre a plataforma node.js"
 ---
 
 Caro leitor,

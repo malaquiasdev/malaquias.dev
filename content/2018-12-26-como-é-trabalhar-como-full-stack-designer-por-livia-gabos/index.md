@@ -4,7 +4,7 @@ path: blog/como-é-trabalhar-como-full-stack-designer-por-livia-gabos
 tags: [carreira]
 cover: ./liviagabos.jpeg
 date: 2018-12-26
-excerpt: 
+excerpt: "A entrevistada desta vez é mestra em ciências da computação, professora, consultora de experiência do usuário e acessibilidade. Uma mulher porreta que faz jus a metamorfose ambulante de Raul Seixas. Estou falando de Livia Gabos ❤"
 ---
 
 A entrevistada desta vez é mestra em ciências da computação, professora, consultora de experiência do usuário e acessibilidade. Uma mulher porreta que faz jus a metamorfose ambulante de Raul Seixas. Estou falando de [Livia Gabos](http://liviagabos.com/) ❤.

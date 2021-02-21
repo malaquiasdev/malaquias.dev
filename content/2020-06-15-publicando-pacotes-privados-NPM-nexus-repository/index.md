@@ -4,7 +4,7 @@ path: blog/publicando-pacotes-privados-NPM-nexus-repository
 tags: [devops]
 cover: ./capa-do-artigo-nexus.jpg
 date: 2020-06-15
-excerpt: 
+excerpt: "Neste artigo vamos ver um resumo de porque escolhemos o Nexus como repositório privado, como configura-ló para funcionar com o NPM e como conseguir consumir os pacotes guardados no Nexus"
 ---
 
 Atualmente trabalho com JavaScript e Node.js em uma grande operadora daqui do Brasil e muitas de nossas soluções não podem estar públicas na internet por questões de segurança.

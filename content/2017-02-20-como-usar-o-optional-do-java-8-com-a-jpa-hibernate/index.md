@@ -4,7 +4,7 @@ path: blog/como-usar-o-optional-do-java-8-com-a-jpa-hibernate
 tags: [java]
 cover: ./java.jpeg
 date: 2017-02-20
-excerpt: 
+excerpt: "Finalmente temos em mãos um facilitador para evitar o velho NullPointerException"
 ---
 
 ## Resumo

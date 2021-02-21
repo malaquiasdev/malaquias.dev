@@ -4,7 +4,7 @@ path: blog/update-aws-lambda-node10-lts
 tags: [serverless, nodejs, aws]
 cover: ./capa.jpg
 date: 2019-06-30
-excerpt: 
+excerpt: "Você ainda está usando o Node.js 6.x?"
 ---
 
 Não faz muito tempo que a [AWS anunciou que um dos seus serviços que mais uso (AWS Lambda) daria então suporte ao runtime do Node.js 10 LTS](https://aws.amazon.com/about-aws/whats-new/2019/05/aws_lambda_adds_support_for_node_js_v10/), isso provavelmente faz parte dos planos da empresa de cada vez mais suportar plataformas modernas nos seus serviços.

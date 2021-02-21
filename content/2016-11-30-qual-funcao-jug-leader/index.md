@@ -4,7 +4,7 @@ path: blog/qual-funcao-jug-leader
 tags: [carreira]
 cover: ./jug-leader.jpg
 date: 2016-11-30
-excerpt: 
+excerpt: "A minha opinião sobre a função de um jug leader na comunidade Java"
 ---
 
 Não tem um, não tem dois, não tem três e sim quatro JUGs Leaders (Popete, Eu, Jefferson e Ivan) a frente da comunidade Java Bahia. A foto acima foi em um evento que participamos onde praticamente fechamos a universidade e essa galera ficou com a gente até o final mesmo na falta de ônibus.

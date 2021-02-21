@@ -4,7 +4,7 @@ path: blog/a-importância-do-java-ee-jcp-java-ee-guardians-e-microprofile
 tags: [java]
 cover: ./javaeeguardians.jpeg
 date: 2017-02-13
-excerpt: 
+excerpt: "Hoje, vamos falar com Reza Rahman, o conhecido entusiasta de Java EE. Nesta entrevista, ele fala sobre micros serviços, Java, comunidade Java EE Guardian, Microprofile e a participação da Oracle nisso tudo."
 ---
 
 Hoje, vamos falar com Reza Rahman, o conhecido entusiasta de Java EE. Nesta entrevista, ele fala sobre micros serviços, Java, comunidade Java EE Guardian, Microprofile e a participação da Oracle nisso tudo.

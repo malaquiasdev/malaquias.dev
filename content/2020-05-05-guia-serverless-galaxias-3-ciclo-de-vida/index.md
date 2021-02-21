@@ -4,7 +4,7 @@ path: blog/guia-serverless-galaxias-3-ciclo-de-vida
 tags: [serverless]
 cover: ./serverless-capa.jpg
 date: 2020-05-05
-excerpt: 
+excerpt: "Neste post, vamos entender os estados de uma função, as condições de cada estado e como ocorre a transição entre eles"
 ---
 
 Quando a gente cria ou atualiza uma função, na maioria dos casos, esse processo é muito rápido e as nossas funções estão prontas para executar quase que imediatamente. 
