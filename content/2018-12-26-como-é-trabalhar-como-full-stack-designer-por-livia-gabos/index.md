@@ -1,24 +1,13 @@
 ---
-title: 'Como é trabalhar como Full Stack Designer, por Livia Gabos'
-date: '2018-09-03T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'como-é-trabalhar-como-full-stack-designer-por-livia-gabos'
-category: 'carreira-entrevistas'
-tags:
-  - 'carreira-entrevistas'
-  - 'profissão'
-  - 'entrevista'
-  - 'sociologia'
-  - 'politica'
-  - 'desenvolvimento'
-description: ''
-socialImage: 'https://miro.medium.com/max/956/1*BMG-0K3A7tI2yTx3wdjQ6g.jpeg'
+title: "Como é trabalhar como Full Stack Designer, por Livia Gabos"
+path: blog/como-é-trabalhar-como-full-stack-designer-por-livia-gabos
+tags: [carreira-e-entrevistas]
+cover: ./liviagabos.jpeg
+date: 2018-12-26
+excerpt: 
 ---
 
 A entrevistada desta vez é mestra em ciências da computação, professora, consultora de experiência do usuário e acessibilidade. Uma mulher porreta que faz jus a metamorfose ambulante de Raul Seixas. Estou falando de [Livia Gabos](http://liviagabos.com/) ❤.
-
-![livia](https://miro.medium.com/max/956/1*BMG-0K3A7tI2yTx3wdjQ6g.jpeg)
 
 ## Quem é Livia Gabos?
 
@@ -101,7 +90,7 @@ Com o tempo, tentava atuar com os analistas de requisitos e gerentes. Mas até q
 
 ## To achando bem massa todo esse lance de full stack designer e acessibilidade, porque não sei nada sobre isso. Geralmente fico longe de tudo que envolve usuário final. Mas quais seriam as skills de quem trabalha nesta área?
 
-![livia](https://miro.medium.com/max/960/1*R1Xm7HcdCYcCZKMD9MIKIg.jpeg)
+<img src="https://miro.medium.com/max/960/1*R1Xm7HcdCYcCZKMD9MIKIg.jpeg" alt="livia" width="600"/>
 
 Estava em uma conversa sobre o assunto outro dia. Eu posso falar que pela minha formação mais voltada para área da computação, a análise de padrões e desenvolvimento são mais fáceis para mim. Eu sou criativa até certo ponto e por isso quando me pedem redesign de algo eu acabo chamando quem entende.
 
