@@ -1,7 +1,7 @@
 ---
 title: Code splitting in react with React.lazy() and Suspense
 tags: [ html, css, reactjs ]
-date: 2020-05-21T05:25:44.226Z
+date: 2015-05-21T05:25:44.226Z
 path: blog/code-splitting-in-react
 cover: ./codesplitting.png
 excerpt: Suppose the bundle size of your project is very huge and you don't want to load everything at once during the initial render you can use code splitting along with React to improve the performance and load time of your application.
