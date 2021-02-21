@@ -1,7 +1,7 @@
 ---
 title: "Qual a função de um JUG Leader? 😇"
 path: blog/qual-funcao-jug-leader
-tags: [carreira-e-entrevistas]
+tags: [carreira]
 cover: ./jug-leader.jpg
 date: 2016-11-30
 excerpt: 

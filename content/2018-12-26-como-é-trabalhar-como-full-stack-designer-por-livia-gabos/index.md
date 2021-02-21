@@ -1,7 +1,7 @@
 ---
 title: "Como é trabalhar como Full Stack Designer, por Livia Gabos"
 path: blog/como-é-trabalhar-como-full-stack-designer-por-livia-gabos
-tags: [carreira-e-entrevistas]
+tags: [carreira]
 cover: ./liviagabos.jpeg
 date: 2018-12-26
 excerpt: 

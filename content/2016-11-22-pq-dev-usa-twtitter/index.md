@@ -1,7 +1,7 @@
 ---
 title: "Por que Desenvolvedores/Programadores usam Twitter? 😇"
 path: blog/pq-dev-usa-twtitter
-tags: [carreira-e-entrevistas]
+tags: [carreira]
 cover: ./tweet-tweet.png
 date: 2016-11-22
 excerpt: 

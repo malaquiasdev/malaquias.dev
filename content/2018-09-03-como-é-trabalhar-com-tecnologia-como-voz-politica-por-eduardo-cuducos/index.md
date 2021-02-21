@@ -1,7 +1,7 @@
 ---
 title: "Como é trabalhar com tecnologia como voz política, por Eduardo Cuducos"
 path: blog/como-é-trabalhar-com-tecnologia-como-voz-politica-por-eduardo-cuducos
-tags: [carreira-e-entrevistas]
+tags: [carreira]
 cover: ./cuducos.jpeg
 date: 2018-09-03
 excerpt: 
