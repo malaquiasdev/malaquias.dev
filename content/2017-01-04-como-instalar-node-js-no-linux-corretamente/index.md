@@ -3,7 +3,7 @@ title: "Como instalar Node.js no Linux corretamente"
 path: blog/como-instalar-node-js-no-linux-corretamente
 tags: [nodejs]
 cover: ./nodejs-logo.jpeg
-date: 2019-06-16
+date: 2017-01-04
 excerpt: 
 ---
 
