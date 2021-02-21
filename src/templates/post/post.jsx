@@ -31,7 +31,7 @@ const Post = ({ data }) => {
           title={title}
           description={excerpt}
           path={path}
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+          keywords={['Mateus', 'Malaquias', 'Bahia', 'backend', 'tech lead', 'Javascript', 'NodeJS', 'AWS', 'CloudFront (CDN)', 'S3', 'API Gateway', 'AWS Lambda', 'Step Functions', 'AWS Fargate', 'CloudWatch', 'X-RAY', 'DynamoDB', 'AWS Pinpoint', 'AWS Athena', 'AWS SQS', 'AWS SNS', 'AWS RDS', 'AWS Elasticache']}
         />
         <Header />
         <SidebarWrapper>

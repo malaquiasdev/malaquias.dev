@@ -2,7 +2,7 @@
 
 [![Build Status](https://www.travis-ci.com/malaquiasdev/malaquias.dev.svg?branch=master)](https://www.travis-ci.com/malaquiasdev/malaquias.dev)
 
-This is my personal blog project. I use as base the <a href='https://github.com/rolwin100/rolwinreevan_gatsby_blog' target='_blank'>Rolwin Reevan Portfolio template project</a> <a href='https://ant.design/' target='_blank'>and theant-design</a>.
+This is my personal blog project. I use as base the <a href='https://github.com/rolwin100/rolwinreevan_gatsby_blog' target='_blank'>Rolwin Reevan Portfolio</a> template project and the <a href='https://ant.design/' target='_blank'>ant-design</a>.
 
 If you like this project, please go to the **Rolwin Reevan repository** and give him a star to encourage him 😄
 
