@@ -38,18 +38,6 @@ module.exports = {
         'Node.js is a tool for executing JavaScript in a variety of environments.',
       color: '#90c53f',
     },
-    typescript: {
-      name: 'typescript',
-      description:
-        'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
-      color: '#257acc',
-    },
-    reactjs: {
-      name: 'reactjs',
-      description:
-        'React is an open source JavaScript library used for designing user interfaces.',
-      color: '#61dbfa',
-    },
     gatsby: {
       name: 'Gatsby.js',
       description:
