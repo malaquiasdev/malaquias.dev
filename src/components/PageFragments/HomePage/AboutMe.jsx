@@ -5,7 +5,7 @@ import SEO from '../../Seo';
 
 const pageText = {
   paraOne: 'Olá!! Sou natural de <b>Maragogipe</b> uma pequena cidade do interior da Bahia, atualmente demonstro toda a força do dendê da Bahia em São Paulo/SP trabalhando como tech lead na Claro Brasil.',
-  paraTwo: 'Ataulmente atuou como backend tech lead em <b>um produto e dois projetos no setor de transformação digital</b> da Claro Brasil, sendo eles: Uma plataforma de streaming video, uma plataforma interna para enviar PUSH Notification e um projeto de recomendação de conteúdos.',
+  paraTwo: 'Atualmente atuo como backend tech lead em <b>um produto e dois projetos no setor de transformação digital</b> da Claro Brasil, sendo eles: Uma plataforma de streaming video, uma plataforma interna para enviar PUSH Notification e um projeto de recomendação de conteúdos.',
   paraThree: 'Tenho trabalhado constamente com tecnologias <b>NodeJS</b> e com serviços da <b>AWS</b>, como por exemplo: <b>CloudFront (CDN), S3, AWS API Gateway, AWS Lambda, Step Functions, AWS Fargate, CloudWatch, X-RAY, DynamoDB, AWS Pinpoint, AWS Athena, AWS SQS, AWS SNS, AWS RDS, AWS Elasticache.</b>',
 };
 
