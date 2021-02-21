@@ -1,24 +1,15 @@
 ---
-title: 'Como é trabalhar com Ciência de Dados, por Jessica Temporal'
-date: '2019-11-25T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'como-é-trabalhar-com-ciência-de-dados-por-jessica-temporal'
-category: 'carreira-entrevista'
-tags:
-  - 'profissao'
-  - 'entrevista'
-  - 'data science'
-  - 'carreira & entrevista'
-description: ''
-socialImage: 'https://miro.medium.com/max/1080/0*dqJw3RxvD52XfAUa'
+title: "Como é trabalhar com Ciência de Dados, por Jessica Temporal"
+path: blog/como-é-trabalhar-com-ciência-de-dados-por-jessica-temporal
+tags: [carreira-e-entrevistas]
+cover: ./jessicatemporal.jpg
+date: 2019-11-25
+excerpt: 
 ---
 
 #### Esse post é uma entrevista sobre o que um(a) profissional pode dizer a respeito da sua área de atuação visando mostrar para outras pessoas como é trabalhar no que fazem, esclarecendo para algumas pessoas se elas se dariam bem trabalhando na área ou mesmo só para mostrar para outras pessoas como é trabalhar com isso.
 
 A entrevistada desta vez é informata biomédica, desenvolvedora, hacker de dados e podcaster. Uma mulher forte, trabalhadora, dedicada que nas horas vagas assiste bastante seriado e gosta de cuidar do seu jardim. Hoje vamos conhecer um pouco da profissão da [Jessica Temporal](https://jtemporal.com/).
-
-![capa](https://miro.medium.com/max/1080/0*dqJw3RxvD52XfAUa)
 
 Olá! Meu nome é Jessica Temporal, me formei algum tempo num curso exótico chamado, Informática Biomédica e sou apaixonada por tecnologia. Muito de quem sou hoje está atrelado a essa paixão. Por exemplo, faço parte de comunidades de programação e grupos de incentivo a diversidade na tecnologia, além disso, criei em conjunto com a Leticia Portella e o Gustavo Coelho, um podcast sobre ciência de dados o Pizza de Dados. Trabalho no iFood como cientista de dados no time de Data e AI e nas horas vagas vejo muito seriado, bordo ponto cruz e cuido do jardim de casa.
 
@@ -50,7 +41,7 @@ Entrando no emprego que estou hoje haha. Claro que já havia escutado o termo e 
 
 ## Como é que funciona a sua rotina de trabalho? Tipo a rotina de uma pessoa desenvolvedora geralmente é entender o que vai ser desenvolvido, planejar o tempo para desenvolver, corrigir bugs, etc. Mas sua rotina de trabalho como funciona?
 
-![jessica](https://miro.medium.com/max/1080/0*_9ZEYQMQxnJ7s685)
+<img src="https://miro.medium.com/max/1080/0*_9ZEYQMQxnJ7s685" alt="jessica" width="600"/>
 
 Na verdade é quase igual, nós temos um objetivo, por exemplo, fazer uma clusterização ou implementar um modelo, daí fazemos um planejamento: nisso definimos “x” tempo para exploração, depois mais “y” para testes iniciais e definir resultados, mais “z” para melhoria de modelo caso necessário e mais “w” para implementação do “entregável” seja isso uma apresentação ou um dashboard, ou um modelo que vai ficar rodando na nuvem por determinado período…
 
@@ -80,7 +71,7 @@ Ouso dizer que tinha dois trabalhos estudava ciência de dados à noite e aquele
 
 ## De onde nasceu a ideia de um projeto de podcast e o que ele é?
 
-![pizza de dados](https://miro.medium.com/max/960/1*FplRTyfym1pLitZajqpPew.png)
+<img src="https://miro.medium.com/max/960/1*FplRTyfym1pLitZajqpPew.png" alt="pizza de dados" width="600"/>
 
 Bem, Eu, a Letícia e o Gustavo, compartilhávamos muito conteúdo de ciência de dados entre a gente além de conversar muito sobre as coisas do ramo né. Daí conversando um dia sobre compartilhar essas coisas que conversamos, o Gustavo veio com a ideia de fazermos um canal no YouTube. Aí a Letícia virou e falou assim “deus me livre”. E aí, conversa vai conversa vem, alguém falou “e um podcast?”. Foi assim que tudo começou.
 
@@ -102,7 +93,7 @@ As ferramentas a seu favor são coisas de visualização e principalmente a sua 
 
 ## Quais são os principais desafios da área?
 
-![jessica](https://miro.medium.com/max/1080/1*4gWbL9o2ir0crY-a9Ohy-g.jpeg)
+<img src="https://miro.medium.com/max/1080/1*4gWbL9o2ir0crY-a9Ohy-g.jpeg" alt="jessica" width="600"/>
 
 Formação é uma delas, como falei não existe faculdade que te forme em ciência de dados, decorrente disso como “será que o certificado do cursinho online é o suficiente?”. Mais relacionado ao trabalho em si:
 
