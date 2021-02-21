@@ -1,20 +1,11 @@
 ---
-title: 'Tmux para iniciantes'
-date: '2020-01-15T23:46:37.121Z'
-template: 'post'
-draft: false
-slug: 'tmux-para-iniciantes'
-category: 'back-end'
-tags:
-  - 'back-end'
-  - 'tmux'
-  - 'produtividade'
-  - 'terminal'
-description: 'Conheci o tmux na época em que tentei dar uma nova função para o meu IPad, a de ser uma máquina capaz de me permitir codar. O IPad ficou para trás e nesse texto vai lhe dou tour de poucos minutos no uso do tmux.'
-socialImage: '/media/artigos/tmux-para-iniciantes/sessao-nova.png'
+title: "Tmux para iniciantes"
+path: blog/tmux-para-iniciantes
+tags: [produtividade]
+cover: ./sessao-ativa.png
+date: 2020-01-15
+excerpt: 
 ---
-
-![Capa](/media/artigos/tmux-para-iniciantes/capa.gif)
 
 Conheci o tmux na época em que tentei dar uma nova função para o meu IPad, a de ser uma máquina capaz de me permitir codar (é possível fazer isso com um Surface Pro). Para tentar derrubar as limitações impostas na época pelo IOS tentei usar editor de texto, acessar um Raspberry Pie, até que cheguei a brilhante ideia (ironia) de criar um servidor EC2 na AWS e acessar ele via SSH.
 
@@ -65,7 +56,7 @@ Esse comando vai abrir uma nova sessão, criará uma nova janela e iniciará um 
 
 Quando estiver no Tmux, você verá uma linha de status na parte inferior da tela que mostra informações sobre a sessão atual.
 
-![Uma nova sessão no tmux](/media/artigos/tmux-para-iniciantes/sessao-nova.png)
+![Uma nova sessão no tmux](./sessao-nova.png)
 
 A barra de status é uma parte importante do tmux. Além das janelas abertas, também mostra algumas informações do sistema, como data e hora. Totalmente personalizável, já vi algumas coisas realmente chiques por aí (próximos eventos da agenda, status da bateria, para citar alguns).
 
@@ -79,7 +70,7 @@ Para criar uma nova sessão nomeada, execute o comando tmux com os seguintes arg
 tmux new -s session_name
 ```
 
-![Uma nova sessão nomeada](/media/artigos/tmux-para-iniciantes/sessa-nova-nomeada.png)
+![Uma nova sessão nomeada](./sessa-nova-nomeada.png)
 
 ### Criando uma nova sessão sem sair da antiga
 
@@ -97,7 +88,7 @@ Para se conectar a uma sessão antiga acredito que você precisa encontrar o seu
 tmux ls
 ```
 
-![Lista de sessões ativas](/media/artigos/tmux-para-iniciantes/sessao-ativa.png)
+![Lista de sessões ativas](./sessao-ativa.png)
 
 Fique atento ao nome ou número na primeira coluna apresentada em seu terminal. No meu exemplo você pode ver que existem duas sessões em execução. A primeiro é chamado artigo e a segunda blog. E que atualmente estou utilizando a sessão blog.
 
@@ -127,11 +118,11 @@ Lembrando o que acabei de lhe contar sobre a sequência de prefixo e tecla de co
 
 Voilà! Você acabou de invocar um atalho do tmux e dividir seu painel em dois.
 
-![Dois paineis horizontais](/media/artigos/tmux-para-iniciantes/paineis-horizontal-dois.png)
+![Dois paineis horizontais](./paineis-horizontal-dois.png)
 
 Também existe uma divisão de painéis superior e inferior. Para dividir use o atalho C-b ".
 
-![Paineis superior e inferior](/media/artigos/tmux-para-iniciantes/paineis-superior-inferior.png)
+![Paineis superior e inferior](./paineis-superior-inferior.png)
 
 ### Navegando entre os painéis
 
