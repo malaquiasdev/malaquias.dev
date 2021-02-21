@@ -1,11 +1,16 @@
 # malaquias.dev
 
-[![Build Status](https://travis-ci.org/malaquiasdev/malaquias.dev.svg?branch=master)](https://travis-ci.org/malaquiasdev/malaquias.dev)
+[![Build Status](https://www.travis-ci.com/malaquiasdev/malaquias.dev.svg?branch=master)](https://www.travis-ci.com/malaquiasdev/malaquias.dev)
 
----
+This is my personal blog project. I use as base the <a href='https://github.com/rolwin100/rolwinreevan_gatsby_blog' target='_blank'>Rolwin Reevan Portfolio template project</a> <a href='https://ant.design/' target='_blank'>and theant-design</a>.
 
-## Used Platforms
+If you like this project, please go to the **Rolwin Reevan repository** and give him a star to encourage him 😄
 
+Thank you!
+
+## Tecnologies used here:
+
+- Yarn
 - React 16
 - Gatsby
 - Graphql
@@ -13,31 +18,72 @@
 - AWS S3
 - AWS Cloud Front
 
-## Contributing
+## 🚀 Quick start
 
-### 01. Install dependencies
+1.  **Setup the project by.**
 
-```sh
-$ npm install
-```
+    clone the project and install the dependencies
 
-### 02. Create configs
+    ```shell
+    git clone https://github.com/malaquiasdev/malaquias.dev.git
+    cd malaquias.dev
+    yarn install
+    ```
 
-Create a `.env` file at the root of the project. Make sure you follow the [`.env.example`](.env.example) file as a guide.
+1.  **Start developing.**
+    
+    Create a `.env` file at the root of the project. Make sure you follow the [`.env.example`](.env.example) file as a guide.
+    
+    ```shell
+    gatsby develop
+    ```
 
-### 03. Run project
+1.  **Open the source code and start editing!**
+    Your site is now running at `http://localhost:8000`!
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-```sh
-$ npm run develop
-```
 
-### 04. Learn more in the Contributing guide
+## 🧐 What's inside?
 
-Please take a look at the [contributing guide](.github/contributing.md).
+A quick look at the top-level files and directories you'll see in a Gatsby project.
+    .
+    ├── content
+    ├── node_modules
+    ├── src
+    ├── static
+    ├── .eslintrc
+    ├── .example.env
+    ├── .gitignore
+    ├── .prettierrc
+    ├── config.js
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-config.plugins.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
+
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+5.  **`config.js`**: all the configuration variables that are necessary for the site are added in this file.
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+7.  **`gatsby-config.plugins.js`**: This file contains the plugin configurations which is used in the gatsby-config.js. For modularity purpose we do this. 
+8.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+9.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+10.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+11. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+12. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+13. **`README.md`**: A text file containing useful reference information about your project.
+14. **`content`**: This is the folder where we write our Markdowns for the blogs.
 
 ## Respect earns Respect 👏
 
-Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
+Please respect our **Code of Conduct**, in short:
 
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
@@ -47,4 +93,4 @@ Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
 
 ## License
 
-[MIT](license) © 2019 Mateus Malaquias
+[MIT](license) © 2021 Mateus Malaquias
