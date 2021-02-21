@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "antd": "^4.0.1",
+    "dotenv": "^8.2.0",
     "feather-icons-react": "^0.4.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.29.2",
