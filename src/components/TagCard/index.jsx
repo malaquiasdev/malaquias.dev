@@ -6,7 +6,7 @@ import style from './tags.module.less';
 
 const TagCard = (props) => {
   const {
-    img, name, description, color,
+    img, name, color,
   } = props;
   const tagPage = Config.pages.tag;
   return (
@@ -25,9 +25,6 @@ const TagCard = (props) => {
               {name}
             </h4>
           </div>
-          <p>
-            {description}
-          </p>
         </div>
       </div>
     </Link>

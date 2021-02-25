@@ -28,50 +28,34 @@ module.exports = {
   tags: {
     javascript: {
       name: 'javascript',
-      description:
-        'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
       color: '#f0da50',
     },
     nodejs: {
       name: 'Node.js',
-      description:
-        'Node.js is a tool for executing JavaScript in a variety of environments.',
       color: '#90c53f',
     },
     devops: {
       name: 'devops',
-      description:
-        'A general purpose programming language that is widely used for developing various applications.',
       color: '#00c86f',
     },
     serverless: {
       name: 'serverless',
-      description:
-        'A general purpose programming language that is widely used for developing various applications.',
       color: '#f16165',
     },
     produtividade: {
       name: 'produtividade',
-      description:
-        'A general purpose programming language that is widely used for developing various applications.',
       color: '#ff8c2a',
     },
     carreira: {
       name: 'carreira',
-      description:
-        'A general purpose programming language that is widely used for developing various applications.',
       color: '#6b5be2',
     },
     java: {
       name: 'java',
-      description:
-        'A markup language that powers the web. All websites use HTML for structuring the content.',
       color: '#dd3431',
     },
     aws: {
       name: 'aws',
-      description:
-        'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
   },
