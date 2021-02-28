@@ -58,5 +58,9 @@ module.exports = {
       name: 'aws',
       color: '#f9c646',
     },
+    weekly: {
+      name: 'weekly',
+      color: '#993399',
+    },
   },
 };
