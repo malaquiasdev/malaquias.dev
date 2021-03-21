@@ -24,5 +24,5 @@ Weekly é uma sessão do blog onde guardo todos os links dos conteúdos que li, 
 
 ## 🖥️ Videos:
 
-* **Disney plus:** [BIOS Mauricio de Souza](https://disneyplus.com/series/bios-vidas-que-marcaram-a-sua/2rWAjviLd71c?sharesource=iOS Você vai gostar de &quot;Bios. Vidas que Marcaram a Sua&quot; disponível no Disney+.)
+* **Disney plus:** [BIOS Mauricio de Souza](https://disneyplus.com/series/bios-vidas-que-marcaram-a-sua/2rWAjviLd71c?sharesource=iOS)
 * **Átila:** [Live 02/03/2021 - À beira do colapso](https://youtu.be/9c8zYkJ8gBk)
