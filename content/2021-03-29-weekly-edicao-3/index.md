@@ -11,13 +11,13 @@ Weekly é uma sessão do blog onde guardo todos os links dos conteúdos que li, 
 
 Essa semana foquei mais em assuntos sobre liderença.
 
-## **📚** Textos:
+## 📚 Textos:
 
 * **Leonardo Barros:** [Aprenda como receber feedback de seus colaboradores](https://blog.tangerino.com.br/aprenda-como-receber-feedback-de-seus-colaboradores/)
 * **Wallace Oliveira:** [Entenda definitivamente o que é analise SWOT](https://www.heflo.com/pt-br/swot/o-que-e-analise-swot/)
 * **Paulo Silveira:** [Aprenda a programar em 10 anos](https://www.alura.com.br/artigos/aprenda-a-programar-em-10-anos)
 
-## **🎙** Podcasts:
+## 🎙 Podcasts:
 
 * **Hipster:** [Go, gRPC e investimentos na Guru – Hipsters On The Road #54](https://hipsters.tech/go-grpc-e-investimentos-na-guru-hipsters-on-the-road-54/)
 * **Hipster:** [Python, GraphQL e Serverless no Zé Delivery – Hipsters On The Road #53](https://hipsters.tech/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53/)
@@ -26,7 +26,7 @@ Essa semana foquei mais em assuntos sobre liderença.
 * **Lambda3 Podcast 236:** [Programação Funcional Parte 3 – Railway Oriented Programming](https://www.lambda3.com.br/2021/02/lambda3-podcast-236-programacao-funcional-parte-3-railway-oriented-programming/)
 * **O Assunto #409:** [Como ficou a PEC Emergencial](https://podcasts.apple.com/br/podcast/o-assunto/id1477406521?l=en&amp;i=1000512640806)
 
-## **🖥️ ** Videos:
+## 🖥️  Videos:
  
 * **Alura Cursos Online:** [O CEO Dev em T: Paulo Silveira](https://www.youtube.com/watch?v=mvOYPGTHMUU)
 * **Alura Cursos Online:** [Como posso aprender a programar? #HipstersPontoTube](https://www.youtube.com/watch?v=MwCx2qKdbDw)
