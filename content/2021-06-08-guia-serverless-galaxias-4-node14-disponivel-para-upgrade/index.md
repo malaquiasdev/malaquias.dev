@@ -2,7 +2,7 @@
 title: "Guia dos Serverless das Galaxias - #4 - Nodejs 14x disponivel para upgrade no AWS Lambda"
 path: blog/guia-serverless-galaxias-4-node14-disponivel-para-upgrade
 tags: [serverless]
-cover: ./poster.png
+cover: ./poster.jpg
 date: 2021-06-08
 excerpt: "Já podemos criar funções lambdas na AWS utilizando o runtime Node.js 14.x, fazer esse upgrade vai trazer alguns benefícios para os seus projetos e sobre isso que vamos falar hoje"
 ---
