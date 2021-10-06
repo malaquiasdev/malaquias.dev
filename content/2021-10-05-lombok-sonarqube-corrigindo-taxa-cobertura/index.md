@@ -1,7 +1,7 @@
 ---
 title: "Lombok: Corrigindo problema de cobertura de código no SonarQube"
 path: blog/lombok-sonarqube-corrigindo-taxa-cobertura
-tags: [java]
+tags: [java, devops]
 cover: ./scott-rodgerson-5v235ueAU58-unsplash.jpg
 date: 2021-10-05
 excerpt: "Como corrigir baixa taxa de cobertura de código no SonarQube quando usar anotações do Lombok"
