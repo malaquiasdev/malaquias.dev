@@ -3,7 +3,7 @@ module.exports = {
   siteUrl: 'https://malaquias.dev',
   siteTitle: 'MalaquiasDEV | A Vida, o código e tudo mais',
   siteDescription:
-    'Baiano | Tech Lead na Claro Brasil | Gosto de compartilhar conhecimento escrevendo sobre coisas de tech ☕️',
+    'Baiano | Software Engineer | Gosto de compartilhar conhecimento escrevendo sobre coisas de tech ☕️',
   author: 'Mateus Malaquias',
   postsForArchivePage: 3,
   defaultLanguage: 'pt-br',
@@ -61,6 +61,10 @@ module.exports = {
     weekly: {
       name: 'weekly',
       color: '#993399',
+    },
+    english: {
+      name: 'english',
+      color: '#7EC8E3',
     },
   },
 };

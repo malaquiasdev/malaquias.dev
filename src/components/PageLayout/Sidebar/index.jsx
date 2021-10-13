@@ -26,7 +26,7 @@ const DomContent = () => (
           <span>Malaquias</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Backend Tech Lead</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
       <div className="centerAlign box">
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
@@ -39,7 +39,7 @@ const DomContent = () => (
             <FeatherIcon size="19" icon="map" />
             {' '}
           </span>
-&nbsp; &nbsp; Claro Brasil
+&nbsp; &nbsp; Banco Itaú
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
