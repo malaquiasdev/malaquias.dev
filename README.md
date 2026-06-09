@@ -1,12 +1,12 @@
 # malaquias.dev
 
-Personal portfolio + blog. Built with [Astro](https://astro.build).
+Personal portfolio. Bilingual (EN/PT), built with [Astro](https://astro.build).
 
 ## Develop
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321
+npm run dev      # http://localhost:4321  (PT at /pt)
 ```
 
 ## Build
@@ -16,36 +16,46 @@ npm run build    # outputs to ./dist
 npm run preview  # preview the production build
 ```
 
+## Internationalization
+
+English is the default locale (served at `/`); Portuguese lives under `/pt`.
+All translatable text lives in **`src/data/i18n.ts`** — add a key to *both*
+locales. Routes are thin wrappers that render shared components with a `lang`
+prop:
+
+```
+src/pages/index.astro      -> /            (en)
+src/pages/about.astro      -> /about       (en)
+src/pages/pt/index.astro   -> /pt          (pt)
+src/pages/pt/about.astro   -> /pt/about    (pt)
+```
+
+The `EN | PT` switcher in the nav links to the same page in the other locale.
+
 ## Edit content
 
 | What | Where |
 |------|-------|
-| Bio, social links, stack, fun facts, services | `src/data/site.ts` |
-| dev.to post list | `devtoPosts` in `src/data/site.ts` |
-| Blog posts | `src/content/blog/*.md` |
+| All copy: bio, experience, skills, community, education, services, fun facts | `src/data/i18n.ts` (per locale) |
+| Social links, dev.to post list | `src/data/site.ts` |
 | Styles / theme colors | `src/styles/global.css` (CSS vars in `:root`) |
-| Pages | `src/pages/*.astro` |
+| Layout, nav, footer, language switcher | `src/layouts/Base.astro` |
+| Page sections | `src/components/{Home,About,Services}.astro` |
 
-### New blog post
+The blog links out to [dev.to/malaquiasdev](https://dev.to/malaquiasdev) — there
+is no local blog.
 
-Create `src/content/blog/my-post.md`:
+## Deploy (AWS S3 + CloudFront)
 
-```yaml
----
-title: "My title"
-description: "One-line summary"
-date: 2026-06-08
-tags: ["backend"]
----
-
-Markdown body here.
+```bash
+cp deploy.config.example deploy.config   # fill in BUCKET, DISTRIBUTION_ID, AWS_PROFILE
+./deploy.sh                              # build + sync + invalidate
+./deploy.sh --no-build                   # deploy existing dist/
 ```
 
-## Deploy
+`deploy.sh` syncs hashed assets with a 1-year immutable cache, uploads HTML
+with `no-cache`, then invalidates CloudFront. `deploy.config` is gitignored.
 
-Static output — drop `dist/` on any static host. Free options:
-
-- **Vercel** / **Netlify**: connect the repo, build command `npm run build`, output dir `dist`.
-- **GitHub Pages**: use the Astro GitHub Pages action.
-
-Point the `malaquias.dev` domain at the host and you're live.
+> Subpaths like `/about` resolve to `/about/index.html`. CloudFront only serves
+> `index.html` at the root by default — add a CloudFront Function to rewrite the
+> URI if subpages 404.
