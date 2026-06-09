@@ -1,0 +1,41 @@
+---
+import Base from "../layouts/Base.astro";
+// Single static 404.html serves every locale (it's the S3 error document),
+// so the copy is shown in both languages.
+---
+
+<Base title="404" description="Page not found">
+  <section class="section nf">
+    <p class="nf-code mono">404</p>
+    <h1 class="nf-title">This page wandered off.</h1>
+    <p class="lead">Esta página se perdeu.</p>
+    <div class="nf-actions">
+      <a class="btn btn-primary" href="/">← Home</a>
+      <a class="btn" href="/pt/">← Início (PT)</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .nf {
+    padding-top: 2rem;
+    max-width: 560px;
+  }
+  .nf-code {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+  .nf-title {
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    margin: 0.6rem 0 0.4rem;
+  }
+  .nf-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.8rem;
+    flex-wrap: wrap;
+  }
+</style>

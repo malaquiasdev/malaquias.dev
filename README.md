@@ -56,6 +56,6 @@ cp deploy.config.example deploy.config   # fill in BUCKET, DISTRIBUTION_ID, AWS_
 `deploy.sh` syncs hashed assets with a 1-year immutable cache, uploads HTML
 with `no-cache`, then invalidates CloudFront. `deploy.config` is gitignored.
 
-> Subpaths like `/about` resolve to `/about/index.html`. CloudFront only serves
-> `index.html` at the root by default — add a CloudFront Function to rewrite the
-> URI if subpages 404.
+The CloudFront origin is the S3 **static-website endpoint**, so subpaths like
+`/about` resolve to `/about/index.html` natively — no CloudFront Function
+needed. `src/pages/404.astro` builds the `404.html` error document.
