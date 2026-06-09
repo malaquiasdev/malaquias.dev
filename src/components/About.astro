@@ -1,0 +1,230 @@
+---
+import { site, social } from "../data/site";
+import { ui, type Lang } from "../data/i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang].about;
+---
+
+<section class="section">
+  <p class="eyebrow">{t.eyebrow}</p>
+  <h1>{site.name}</h1>
+  <p class="lead">{t.roleLine}</p>
+</section>
+
+<section class="section prose">
+  {t.prose.map((p) => <p set:html={p} />)}
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.experienceTitle}</p>
+  <ol class="timeline">
+    {
+      t.experience.map((job) => (
+        <li class="job">
+          <div class="job-head">
+            <h3 class="job-role">
+              {job.role} <span class="job-co">· {job.company}</span>
+            </h3>
+            <span class="job-meta mono">{job.period}</span>
+          </div>
+          <p class="job-loc mono">{job.location}</p>
+          <p class="job-summary muted">{job.summary}</p>
+          <ul class="job-bullets">
+            {job.bullets.map((b) => (
+              <li>{b}</li>
+            ))}
+          </ul>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.skillsTitle}</p>
+  <div class="skill-groups">
+    {
+      t.skills.map((g) => (
+        <div class="skill-group">
+          <h4 class="skill-label mono">{g.group}</h4>
+          <ul class="chips">
+            {g.items.map((s) => (
+              <li class="chip">{s}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.communityTitle}</p>
+  <ol class="timeline">
+    {
+      t.community.map((c) => (
+        <li class="job">
+          <div class="job-head">
+            <h3 class="job-role">
+              {c.role} <span class="job-co">· {c.org}</span>
+            </h3>
+            <span class="job-meta mono">{c.period}</span>
+          </div>
+          <ul class="job-bullets">
+            {c.bullets.map((b) => (
+              <li>{b}</li>
+            ))}
+          </ul>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.educationTitle}</p>
+  <p class="edu-degree">{t.degree}</p>
+  <ul class="edu-certs">
+    {t.certs.map((c) => <li class="muted">{c}</li>)}
+  </ul>
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.elsewhere}</p>
+  <div class="grid grid-2">
+    {
+      social.map((s) => (
+        <a class="card" href={s.href} target="_blank" rel="noopener">
+          <span class="link-label">{s.label}</span>
+          <span class="link-handle mono">{s.handle}</span>
+        </a>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .prose p {
+    margin-bottom: 1.1rem;
+    color: var(--text-dim);
+    max-width: 640px;
+  }
+  .prose :global(strong) {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* timeline */
+  .timeline {
+    list-style: none;
+    display: grid;
+    gap: 1.75rem;
+  }
+  .job {
+    border-left: 2px solid var(--border);
+    padding-left: 1.25rem;
+    position: relative;
+  }
+  .job::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 0.55rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .job-role {
+    font-size: 1.08rem;
+    font-weight: 600;
+  }
+  .job-co {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .job-meta {
+    font-size: 0.82rem;
+    color: var(--text-faint);
+    white-space: nowrap;
+  }
+  .job-loc {
+    font-size: 0.8rem;
+    color: var(--text-faint);
+    margin: 0.15rem 0 0.6rem;
+  }
+  .job-summary {
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 0.7rem;
+  }
+  .job-bullets {
+    list-style: none;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .job-bullets li {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    padding-left: 1.1rem;
+    position: relative;
+  }
+  .job-bullets li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+
+  /* skills */
+  .skill-groups {
+    display: grid;
+    gap: 1.2rem;
+  }
+  .skill-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-faint);
+    margin-bottom: 0.5rem;
+  }
+
+  /* education */
+  .edu-degree {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.6rem;
+  }
+  .edu-certs {
+    list-style: none;
+    display: grid;
+    gap: 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  /* social cards */
+  .link-label {
+    display: block;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+  .card:hover .link-label {
+    color: var(--accent);
+  }
+  .link-handle {
+    font-size: 0.85rem;
+    color: var(--text-faint);
+  }
+</style>

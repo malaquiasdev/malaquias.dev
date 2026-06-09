@@ -1,0 +1,126 @@
+---
+import "../styles/global.css";
+import { site } from "../data/site";
+import {
+  ui,
+  localeNames,
+  localeHref,
+  stripLocale,
+  getLangFromUrl,
+  LOCALES,
+  type Lang,
+} from "../data/i18n";
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: Lang;
+}
+
+const lang: Lang = Astro.props.lang ?? getLangFromUrl(Astro.url);
+const t = ui[lang];
+const { title, description } = Astro.props;
+
+const pageTitle = title ? `${title} · ${site.name}` : `${site.name} · ${t.home.eyebrow}`;
+const pageDesc = description ?? t.home.tagline;
+
+const logical = stripLocale(Astro.url.pathname);
+
+const nav = [
+  { label: t.nav.home, path: "/", external: false },
+  { label: t.nav.about, path: "/about", external: false },
+  { label: t.nav.services, path: "/services", external: false },
+  { label: t.nav.blog, href: "https://dev.to/malaquiasdev", external: true },
+];
+
+const isCurrent = (path: string) =>
+  path === "/" ? logical === "/" : logical.startsWith(path);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDesc} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDesc} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    {
+      LOCALES.map((l) => (
+        <link rel="alternate" hreflang={l} href={localeHref(l, logical)} />
+      ))
+    }
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="nav-brand" href={localeHref(lang, "/")}>
+          {site.handle}<span>.dev</span>
+        </a>
+        <input id="nav-toggle" class="nav-toggle" type="checkbox" hidden />
+        <div class="nav-right">
+          <nav class="nav-menu">
+            <ul class="nav-links">
+              {
+                nav.map((item) => {
+                  const href = item.external
+                    ? item.href
+                    : localeHref(lang, item.path!);
+                  return (
+                    <li>
+                      <a
+                        href={href}
+                        target={item.external ? "_blank" : undefined}
+                        rel={item.external ? "noopener" : undefined}
+                        aria-current={
+                          !item.external && isCurrent(item.path!)
+                            ? "page"
+                            : undefined
+                        }
+                      >
+                        {item.label}
+                        {item.external && <span class="ext">↗</span>}
+                      </a>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          </nav>
+          <div class="lang-switch" role="group" aria-label="Language">
+            {
+              LOCALES.map((l) => (
+                <a
+                  href={localeHref(l, logical)}
+                  class:list={["lang-opt", { active: l === lang }]}
+                  aria-current={l === lang ? "true" : undefined}
+                  hreflang={l}
+                >
+                  {localeNames[l]}
+                </a>
+              ))
+            }
+          </div>
+          <label class="nav-burger" for="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© {new Date().getFullYear()} {site.name}</span>
+        <span class="mono">built with Astro</span>
+      </div>
+    </footer>
+  </body>
+</html>

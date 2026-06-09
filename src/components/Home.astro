@@ -1,0 +1,136 @@
+---
+import { social, devtoPosts } from "../data/site";
+import { ui, type Lang } from "../data/i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang].home;
+const latest = devtoPosts.slice(0, 4);
+---
+
+<section class="section hero">
+  <p class="eyebrow">{t.eyebrow}</p>
+  <h1 class="hero-title">{t.greeting}</h1>
+  <p class="lead hero-lead">{t.tagline}</p>
+  <p class="muted">{t.bio}</p>
+
+  <div class="hero-actions">
+    <a class="btn btn-primary" href={lang === "en" ? "/about" : "/pt/about"}>{t.ctaAbout}</a>
+    <a class="btn" href={lang === "en" ? "/services" : "/pt/services"}>{t.ctaServices}</a>
+  </div>
+
+  <ul class="social-row">
+    {
+      social.map((s) => (
+        <li>
+          <a class="social-link" href={s.href} target="_blank" rel="noopener">
+            {s.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <p class="eyebrow">{t.latest}</p>
+    <a class="muted mono" href="https://dev.to/malaquiasdev" target="_blank" rel="noopener">{t.allPosts}</a>
+  </div>
+  <div class="grid grid-2">
+    {
+      latest.map((p) => (
+        <a class="card" href={p.href} target="_blank" rel="noopener">
+          <span class="card-title">{p.title}</span>
+          <span class="card-meta mono">dev.to ↗</span>
+        </a>
+      ))
+    }
+  </div>
+</section>
+
+<section class="section">
+  <p class="eyebrow">{t.funFacts}</p>
+  <ul class="facts">
+    {
+      t.facts.map((fact, i) => (
+        <li>
+          <span class="fact-emoji">{["☕", "🎮", "✍🏽", "🐍", "🍿"][i]}</span>
+          {fact}
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  .hero {
+    padding: 0;
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    margin: 0.4rem 0 1rem;
+  }
+  .hero-lead {
+    max-width: 640px;
+    margin-bottom: 0.5rem;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin: 1.8rem 0;
+    flex-wrap: wrap;
+  }
+  .social-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    list-style: none;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .social-link {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--text-dim);
+  }
+  .social-link:hover {
+    color: var(--accent);
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .card-title {
+    display: block;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.6rem;
+  }
+  .card:hover .card-title {
+    color: var(--accent);
+  }
+  .card-meta {
+    font-size: 0.8rem;
+    color: var(--text-faint);
+  }
+  .facts {
+    list-style: none;
+    display: grid;
+    gap: 0.7rem;
+  }
+  .facts li {
+    color: var(--text-dim);
+    display: flex;
+    gap: 0.8rem;
+    align-items: baseline;
+  }
+  .fact-emoji {
+    font-size: 1.1rem;
+  }
+</style>

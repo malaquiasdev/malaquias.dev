@@ -1,0 +1,61 @@
+---
+import { ui, type Lang } from "../data/i18n";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang].services;
+---
+
+<section class="section">
+  <p class="eyebrow">{t.eyebrow}</p>
+  <h1>{t.title}</h1>
+  <p class="lead">{t.lead}</p>
+</section>
+
+<section class="section">
+  <div class="grid grid-2">
+    {
+      t.items.map((s) => (
+        <article class="card svc">
+          <h3 class="svc-title">{s.title}</h3>
+          <p class="muted">{s.desc}</p>
+        </article>
+      ))
+    }
+  </div>
+</section>
+
+<section class="section cta">
+  <h2>{t.ctaTitle}</h2>
+  <p class="muted">{t.ctaText}</p>
+  <a class="btn btn-primary" href="mailto:mateusmalaquiasdev@outlook.com">{t.ctaButton}</a>
+</section>
+
+<style>
+  .svc {
+    cursor: default;
+  }
+  .svc:hover {
+    transform: none;
+  }
+  .svc-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.6rem;
+  }
+  .cta {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .cta h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .cta .btn {
+    margin-top: 1.2rem;
+  }
+</style>
