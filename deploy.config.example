@@ -1,0 +1,5 @@
+# Copy to deploy.config and fill in. deploy.config is gitignored (keeps IDs out of the repo).
+BUCKET="your-s3-bucket-name"
+DISTRIBUTION_ID="E1XXXXXXXXXXXX"
+AWS_PROFILE="default"
+AWS_REGION="us-east-1"
