@@ -1,0 +1,13 @@
+# build output
+dist/
+# astro
+.astro/
+# deps
+node_modules/
+# deploy secrets / config
+deploy.config
+# env
+.env
+.env.*
+# os / editor
+.DS_Store
