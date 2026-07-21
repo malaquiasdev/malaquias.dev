@@ -1,13 +1,16 @@
 ---
 import { social, devtoPosts } from "../data/site";
 import { ui, type Lang } from "../data/i18n";
+import Gallery from "./Gallery.astro";
 
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang].home;
+const tGallery = ui[lang].gallery;
 const latest = devtoPosts.slice(0, 4);
+const galleryHref = lang === "en" ? "/gallery" : "/pt/gallery";
 ---
 
 <section class="section hero">
@@ -49,6 +52,17 @@ const latest = devtoPosts.slice(0, 4);
       ))
     }
   </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">{tGallery.eyebrow}</p>
+      <h2>{tGallery.homeTitle}</h2>
+    </div>
+    <a class="muted mono" href={galleryHref}>{tGallery.viewAll}</a>
+  </div>
+  <Gallery lang={lang} showHeader={false} />
 </section>
 
 <section class="section">

@@ -71,6 +71,8 @@ type Dict = {
     title: string;
     intro: string;
     empty: string;
+    homeTitle: string;
+    viewAll: string;
   };
 };
 
@@ -273,6 +275,8 @@ export const ui: Record<Lang, Dict> = {
       intro:
         "A hand-picked collection of pixel art pieces. Follow along on Instagram for more.",
       empty: "No pieces yet — check back soon.",
+      homeTitle: "Pixel Art Gallery",
+      viewAll: "View full gallery →",
     },
   },
   pt: {
@@ -460,6 +464,8 @@ export const ui: Record<Lang, Dict> = {
       intro:
         "Uma coleção selecionada de peças de pixel art. Acompanhe mais no Instagram.",
       empty: "Ainda não há peças — volte em breve.",
+      homeTitle: "Galeria de Pixel Art",
+      viewAll: "Ver galeria completa →",
     },
   },
 };

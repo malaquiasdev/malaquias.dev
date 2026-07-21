@@ -4,24 +4,33 @@ import { gallery } from "../data/gallery";
 
 interface Props {
   lang: Lang;
+  /** Show the eyebrow/title/intro header block. Defaults to true (standalone /gallery page). */
+  showHeader?: boolean;
+  /** Cap the number of items rendered. Omit to render the full gallery. */
+  limit?: number;
 }
-const { lang } = Astro.props;
+const { lang, showHeader = true, limit } = Astro.props;
 const t = ui[lang].gallery;
+const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
 ---
 
-<section class="section">
-  <p class="eyebrow">{t.eyebrow}</p>
-  <h1>{t.title}</h1>
-  <p class="lead">{t.intro}</p>
-</section>
+{
+  showHeader && (
+    <section class="section">
+      <p class="eyebrow">{t.eyebrow}</p>
+      <h1>{t.title}</h1>
+      <p class="lead">{t.intro}</p>
+    </section>
+  )
+}
 
 <section class="section">
   {
-    gallery.length === 0 ? (
+    items.length === 0 ? (
       <p class="muted">{t.empty}</p>
     ) : (
       <ul class="gallery-grid">
-        {gallery.map((item) => (
+        {items.map((item) => (
           <li class="gallery-item">
             <a
               class="gallery-frame"
