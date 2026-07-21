@@ -70,14 +70,6 @@ export const gallery: GalleryItem[] = [
     alt: "Pixel art artwork by pixel.ai.studio.br (14)",
   },
   {
-    src: "/gallery/IMG_3578.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (15)",
-  },
-  {
-    src: "/gallery/IMG_3580.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (16)",
-  },
-  {
     src: "/gallery/IMG_3582.png",
     alt: "Pixel art artwork by pixel.ai.studio.br (17)",
   },
