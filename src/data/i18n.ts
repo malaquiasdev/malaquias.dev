@@ -269,7 +269,7 @@ export const ui: Record<Lang, Dict> = {
       ctaButton: "Get in touch →",
     },
     gallery: {
-      eyebrow: "Gallery",
+      eyebrow: "Pixel Art Gallery",
       title: "Pixel Art Gallery",
       intro:
         "A hand-picked collection of pixel art pieces. Follow along on Instagram for more.",
@@ -457,7 +457,7 @@ export const ui: Record<Lang, Dict> = {
       ctaButton: "Fale comigo →",
     },
     gallery: {
-      eyebrow: "Galeria",
+      eyebrow: "Galeria de Pixel Art",
       title: "Galeria de Pixel Art",
       intro:
         "Uma coleção selecionada de peças de pixel art. Acompanhe mais no Instagram.",
