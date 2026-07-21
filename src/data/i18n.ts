@@ -28,7 +28,7 @@ type CommunityRole = {
 };
 
 type Dict = {
-  nav: { home: string; about: string; services: string; blog: string };
+  nav: { home: string; about: string; services: string; gallery: string; blog: string };
   home: {
     eyebrow: string;
     greeting: string;
@@ -66,6 +66,12 @@ type Dict = {
     ctaText: string;
     ctaButton: string;
   };
+  gallery: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    empty: string;
+  };
 };
 
 // Skill items are technology names — identical across locales, only group labels translate.
@@ -83,7 +89,7 @@ const SKILL_ITEMS = {
 
 export const ui: Record<Lang, Dict> = {
   en: {
-    nav: { home: "Home", about: "About", services: "Services", blog: "Blog" },
+    nav: { home: "Home", about: "About", services: "Services", gallery: "Gallery", blog: "Blog" },
     home: {
       eyebrow: "Senior Software Engineer",
       greeting: "Hi, I'm Mateus Malaquias.",
@@ -261,9 +267,16 @@ export const ui: Record<Lang, Dict> = {
       ctaText: "Let's talk about it.",
       ctaButton: "Get in touch →",
     },
+    gallery: {
+      eyebrow: "Gallery",
+      title: "Pixel Art Gallery",
+      intro:
+        "A hand-picked collection of pixel art pieces. Follow along on Instagram for more.",
+      empty: "No pieces yet — check back soon.",
+    },
   },
   pt: {
-    nav: { home: "Início", about: "Sobre", services: "Serviços", blog: "Blog" },
+    nav: { home: "Início", about: "Sobre", services: "Serviços", gallery: "Galeria", blog: "Blog" },
     home: {
       eyebrow: "Engenheiro de Software Sênior",
       greeting: "Olá, eu sou o Mateus Malaquias.",
@@ -440,6 +453,13 @@ export const ui: Record<Lang, Dict> = {
       ctaTitle: "Tem um projeto em mente?",
       ctaText: "Vamos conversar.",
       ctaButton: "Fale comigo →",
+    },
+    gallery: {
+      eyebrow: "Galeria",
+      title: "Galeria de Pixel Art",
+      intro:
+        "Uma coleção selecionada de peças de pixel art. Acompanhe mais no Instagram.",
+      empty: "Ainda não há peças — volte em breve.",
     },
   },
 };

@@ -31,6 +31,11 @@ export const social = [
     href: "https://dev.to/malaquiasdev",
     handle: "dev.to/malaquiasdev",
   },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/pixel.ai.studio.br",
+    handle: "@pixel.ai.studio.br",
+  },
 ];
 
 export const stack = [
