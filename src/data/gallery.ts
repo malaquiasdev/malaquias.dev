@@ -14,27 +14,83 @@ export type GalleryItem = {
 
 export const gallery: GalleryItem[] = [
   {
-    src: "/gallery/placeholder-1.svg",
-    alt: "Pixel art placeholder with teal and coral squares in a grid pattern",
-    caption: "Placeholder — swap me out",
-    date: "2026-01",
+    src: "/gallery/IMG_3514.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (1)",
   },
   {
-    src: "/gallery/placeholder-2.svg",
-    alt: "Pixel art placeholder with overlapping coral and teal diagonal blocks",
-    caption: "Placeholder — swap me out",
-    date: "2026-02",
+    src: "/gallery/IMG_3517.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (2)",
   },
   {
-    src: "/gallery/placeholder-3.svg",
-    alt: "Pixel art placeholder with horizontal teal, white and coral stripes",
-    caption: "Placeholder — swap me out",
-    date: "2026-03",
+    src: "/gallery/IMG_3519.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (3)",
   },
   {
-    src: "/gallery/placeholder-4.svg",
-    alt: "Pixel art placeholder with a teal circle and coral pixel accents",
-    caption: "Placeholder — swap me out",
-    date: "2026-04",
+    src: "/gallery/IMG_3537.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (4)",
+  },
+  {
+    src: "/gallery/IMG_3538.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (5)",
+  },
+  {
+    src: "/gallery/IMG_3540.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (6)",
+  },
+  {
+    src: "/gallery/IMG_3541.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (7)",
+  },
+  {
+    src: "/gallery/IMG_3548.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (8)",
+  },
+  {
+    src: "/gallery/IMG_3551.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (9)",
+  },
+  {
+    src: "/gallery/IMG_3556.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (10)",
+  },
+  {
+    src: "/gallery/IMG_3557.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (11)",
+  },
+  {
+    src: "/gallery/IMG_3560.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (12)",
+  },
+  {
+    src: "/gallery/IMG_3572.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (13)",
+  },
+  {
+    src: "/gallery/IMG_3573.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (14)",
+  },
+  {
+    src: "/gallery/IMG_3578.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (15)",
+  },
+  {
+    src: "/gallery/IMG_3580.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (16)",
+  },
+  {
+    src: "/gallery/IMG_3582.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (17)",
+  },
+  {
+    src: "/gallery/IMG_3583.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (18)",
+  },
+  {
+    src: "/gallery/IMG_3584.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (19)",
+  },
+  {
+    src: "/gallery/IMG_3585.png",
+    alt: "Pixel art artwork by pixel.ai.studio.br (20)",
   },
 ];
