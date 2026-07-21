@@ -14,10 +14,6 @@ export type GalleryItem = {
 
 export const gallery: GalleryItem[] = [
   {
-    src: "/gallery/IMG_3514.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (1)",
-  },
-  {
     src: "/gallery/IMG_3517.png",
     alt: "Pixel art artwork by pixel.ai.studio.br (2)",
   },
