@@ -49,12 +49,17 @@ is no local blog.
 
 ```bash
 cp deploy.config.example deploy.config   # fill in BUCKET, DISTRIBUTION_ID, AWS_PROFILE
-./deploy.sh                              # build + sync + invalidate
-./deploy.sh --no-build                   # deploy existing dist/
+npm run deploy                           # build + sync + invalidate
+npm run deploy:no-build                  # deploy existing dist/
+
+# or invoke the script directly:
+./scripts/deploy.sh
+./scripts/deploy.sh --no-build
 ```
 
-`deploy.sh` syncs hashed assets with a 1-year immutable cache, uploads HTML
-with `no-cache`, then invalidates CloudFront. `deploy.config` is gitignored.
+`scripts/deploy.sh` syncs hashed assets with a 1-year immutable cache, uploads
+HTML with `no-cache`, then invalidates CloudFront. `deploy.config` (at the
+repo root) is gitignored.
 
 The CloudFront origin is the S3 **static-website endpoint**, so subpaths like
 `/about` resolve to `/about/index.html` natively — no CloudFront Function
