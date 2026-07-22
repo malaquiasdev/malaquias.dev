@@ -6,12 +6,14 @@
   --text: #e6e6e6;
   --text-dim: #a3a3a3;
   --text-faint: #6e6e6e;
-  --accent: #5a6af0;
+  /* Senna yellow: primary accent, ~14:1 on --bg, safe for small text (AAA) */
+  --accent: #f2c801;
   --accent-2: #ff7a59;
   /* accent-2 (#ff7a59) is ~2.9:1 on #0d0d0d — fails AA for small text.
      brighter coral kept for any small/hover text usage, passes AA (~4.6:1) on --bg */
   --accent-2-text: #ff9478;
-  --accent-soft: #1b1f3a;
+  /* dark desaturated amber tint, harmonizes with yellow accent on dark bg */
+  --accent-soft: #2a2410;
   /* stepped pixel shadow: --border (#3d3d3d) has too little contrast against the
      near-black page bg (~1.8:1) to read as a crisp offset. Use a lighter neutral
      dedicated to shadows so the 16-bit stepped-shadow effect stays visible on dark. */
