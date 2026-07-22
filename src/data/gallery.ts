@@ -33,6 +33,7 @@ export const gallery: GalleryItem[] = [
   {
     src: "/gallery/IMG_3548.png",
     alt: "Pixel art artwork by pixel.ai.studio.br (8)",
+    href: "https://www.instagram.com/p/Da_HaH2Jjn9/",
   },
   {
     src: "/gallery/IMG_3551.png",
