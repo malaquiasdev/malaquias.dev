@@ -105,7 +105,7 @@ export const ui: Record<Lang, Dict> = {
       funFacts: "Fun facts",
       facts: [
         "Coffee is my favorite drink",
-        "I love playing Elden Ring in my spare time",
+        "Been playing more retro & pixel-art games lately",
         "I write about comic-books, technology, and the things I read",
         "If I wasn't a developer, I'd probably be a zoologist",
         "Big fan of Studio Ghibli and Pixar",
@@ -293,7 +293,7 @@ export const ui: Record<Lang, Dict> = {
       funFacts: "Curiosidades",
       facts: [
         "Café é minha bebida favorita",
-        "Adoro jogar Elden Ring no tempo livre",
+        "Ando jogando mais retro games e pixel art",
         "Escrevo sobre quadrinhos, tecnologia e o que ando lendo",
         "Se não fosse desenvolvedor, provavelmente seria zoólogo",
         "Grande fã do Studio Ghibli e da Pixar",
