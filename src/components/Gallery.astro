@@ -36,7 +36,7 @@ const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
           <li class="gallery-item">
             <a
               class="gallery-frame"
-              href={item.src}
+              href={item.href ?? "https://www.instagram.com/pixel.ai.studio.br"}
               target="_blank"
               rel="noopener"
               aria-label={item.caption ? `${item.alt} — ${item.caption}` : item.alt}

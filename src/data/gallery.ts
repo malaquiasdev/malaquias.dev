@@ -10,12 +10,15 @@ export type GalleryItem = {
   caption?: string;
   /** Optional date string, e.g. "2026-05" or "May 2026". */
   date?: string;
+  /** Optional Instagram post permalink. Falls back to the profile link if absent. */
+  href?: string;
 };
 
 export const gallery: GalleryItem[] = [
   {
     src: "/gallery/IMG_3517.png",
     alt: "Pixel art artwork by pixel.ai.studio.br (2)",
+    href: "https://www.instagram.com/p/Da-wWtHx4lf/",
   },
   {
     src: "/gallery/IMG_3519.png",
