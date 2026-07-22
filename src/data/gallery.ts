@@ -31,18 +31,6 @@ export const gallery: GalleryItem[] = [
     href: "https://www.instagram.com/p/Da-8E_WiQdV/",
   },
   {
-    src: "/gallery/IMG_3538.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (5)",
-  },
-  {
-    src: "/gallery/IMG_3540.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (6)",
-  },
-  {
-    src: "/gallery/IMG_3541.png",
-    alt: "Pixel art artwork by pixel.ai.studio.br (7)",
-  },
-  {
     src: "/gallery/IMG_3548.png",
     alt: "Pixel art artwork by pixel.ai.studio.br (8)",
   },
