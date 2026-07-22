@@ -2,16 +2,21 @@
 #
 # Deploy the built site to S3 + CloudFront.
 #
-# Config: copy deploy.config.example -> deploy.config and fill in your values,
-# OR export BUCKET / DISTRIBUTION_ID / AWS_PROFILE / AWS_REGION in your shell.
+# Lives in scripts/, but always runs from the repo root so that
+# `npm run build`, `dist/`, and `deploy.config` resolve correctly.
+#
+# Config: copy deploy.config.example -> deploy.config (at repo root) and fill
+# in your values, OR export BUCKET / DISTRIBUTION_ID / AWS_PROFILE / AWS_REGION
+# in your shell.
 #
 # Usage:
-#   ./deploy.sh            # build + sync + invalidate
-#   ./deploy.sh --no-build # skip the build, deploy existing dist/
+#   ./scripts/deploy.sh            # build + sync + invalidate
+#   ./scripts/deploy.sh --no-build # skip the build, deploy existing dist/
+#   npm run deploy                 # same as above via package.json
 #
 set -euo pipefail
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 
 # ---- load config ----
 if [[ -f deploy.config ]]; then
