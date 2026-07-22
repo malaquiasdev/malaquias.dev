@@ -11,8 +11,10 @@ interface Props {
   showEyebrow?: boolean;
   /** Cap the number of items rendered. Omit to render the full gallery. */
   limit?: number;
+  /** Extra class appended to the grid element, e.g. to scope a layout modifier. */
+  gridClass?: string;
 }
-const { lang, showHeader = true, showEyebrow = true, limit } = Astro.props;
+const { lang, showHeader = true, showEyebrow = true, limit, gridClass } = Astro.props;
 const t = ui[lang].gallery;
 const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
 ---
@@ -32,7 +34,7 @@ const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
     items.length === 0 ? (
       <p class="muted">{t.empty}</p>
     ) : (
-      <ul class="gallery-grid">
+      <ul class:list={["gallery-grid", gridClass]}>
         {items.map((item) => (
           <li class="gallery-item">
             <a
@@ -95,5 +97,15 @@ const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
   .gallery-caption {
     font-size: 0.85rem;
     color: var(--text-faint);
+  }
+
+  /* Home teaser: fixed 4-col / 2-row layout on desktop, scoped via modifier class. */
+  .gallery-grid--home {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 640px) {
+    .gallery-grid--home {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 </style>
