@@ -22,14 +22,14 @@ export const social = [
     handle: "mateusmalaquiasdev@outlook.com",
   },
   {
-    label: "Twitter",
-    href: "https://twitter.com/malaquiasdev",
-    handle: "@malaquiasdev",
-  },
-  {
     label: "Dev.to",
     href: "https://dev.to/malaquiasdev",
     handle: "dev.to/malaquiasdev",
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/pixel.ai.studio.br",
+    handle: "@pixel.ai.studio.br",
   },
 ];
 

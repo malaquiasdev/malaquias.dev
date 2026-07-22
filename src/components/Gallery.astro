@@ -1,0 +1,108 @@
+---
+import { ui, type Lang } from "../data/i18n";
+import { gallery } from "../data/gallery";
+
+interface Props {
+  lang: Lang;
+  /** Show the eyebrow/title/intro header block. Defaults to true. */
+  showHeader?: boolean;
+  /** Cap the number of items rendered. Omit to render the full gallery. */
+  limit?: number;
+  /** Extra class appended to the grid element, e.g. to scope a layout modifier. */
+  gridClass?: string;
+}
+const { lang, showHeader = true, limit, gridClass } = Astro.props;
+const t = ui[lang].gallery;
+const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
+---
+
+{
+  showHeader && (
+    <section class="section">
+      <p class="eyebrow">{t.eyebrow}</p>
+      <h1>{t.title}</h1>
+      <p class="lead">{t.intro}</p>
+    </section>
+  )
+}
+
+<section class="section">
+  {
+    items.length === 0 ? (
+      <p class="muted">{t.empty}</p>
+    ) : (
+      <ul class:list={["gallery-grid", gridClass]}>
+        {items.map((item) => (
+          <li class="gallery-item">
+            <a
+              class="gallery-frame"
+              href={item.href ?? "https://www.instagram.com/pixel.ai.studio.br"}
+              target="_blank"
+              rel="noopener"
+              aria-label={item.caption ? `${item.alt} — ${item.caption}` : item.alt}
+            >
+              <img src={item.src} alt={item.alt} loading="lazy" width="256" height="256" />
+            </a>
+            {(item.caption || item.date) && (
+              <p class="gallery-caption mono">
+                {item.caption}
+                {item.caption && item.date && " · "}
+                {item.date}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</section>
+
+<style>
+  .gallery-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.4rem;
+  }
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .gallery-frame {
+    display: block;
+    background: var(--bg-elev);
+    border: 3px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--border);
+    transition: transform 0.08s steps(1), box-shadow 0.08s steps(1);
+    line-height: 0;
+  }
+  .gallery-frame:hover,
+  .gallery-frame:focus-visible {
+    border-color: var(--accent);
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 0 var(--accent);
+  }
+  .gallery-frame img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    image-rendering: pixelated;
+  }
+  .gallery-caption {
+    font-size: 0.85rem;
+    color: var(--text-faint);
+  }
+
+  /* Home teaser: fixed 4-col / 2-row layout on desktop, scoped via modifier class. */
+  .gallery-grid--home {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 640px) {
+    .gallery-grid--home {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

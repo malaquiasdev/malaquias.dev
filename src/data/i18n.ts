@@ -28,7 +28,7 @@ type CommunityRole = {
 };
 
 type Dict = {
-  nav: { home: string; about: string; services: string; blog: string };
+  nav: { home: string; about: string; services: string; gallery: string; blog: string };
   home: {
     eyebrow: string;
     greeting: string;
@@ -66,6 +66,13 @@ type Dict = {
     ctaText: string;
     ctaButton: string;
   };
+  gallery: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    empty: string;
+    galleryAll: string;
+  };
 };
 
 // Skill items are technology names — identical across locales, only group labels translate.
@@ -83,7 +90,7 @@ const SKILL_ITEMS = {
 
 export const ui: Record<Lang, Dict> = {
   en: {
-    nav: { home: "Home", about: "About", services: "Services", blog: "Blog" },
+    nav: { home: "Home", about: "About", services: "Services", gallery: "Gallery", blog: "Blog" },
     home: {
       eyebrow: "Senior Software Engineer",
       greeting: "Hi, I'm Mateus Malaquias.",
@@ -98,10 +105,10 @@ export const ui: Record<Lang, Dict> = {
       funFacts: "Fun facts",
       facts: [
         "Coffee is my favorite drink",
-        "I love playing Elden Ring in my spare time",
+        "Been playing more retro & pixel-art games lately",
         "I write about comic-books, technology, and the things I read",
         "If I wasn't a developer, I'd probably be a zoologist",
-        "Big fan of Studio Ghibli and Pixar",
+        "Big fan of Studio Ghibli, Pixar, and Nintendo",
       ],
     },
     about: {
@@ -261,9 +268,17 @@ export const ui: Record<Lang, Dict> = {
       ctaText: "Let's talk about it.",
       ctaButton: "Get in touch →",
     },
+    gallery: {
+      eyebrow: "Pixel Art Gallery",
+      title: "Pixel Art Gallery",
+      intro:
+        "A hand-picked collection of pixel art pieces. Follow along on Instagram for more.",
+      empty: "No pieces yet — check back soon.",
+      galleryAll: "all posts on Instagram ↗",
+    },
   },
   pt: {
-    nav: { home: "Início", about: "Sobre", services: "Serviços", blog: "Blog" },
+    nav: { home: "Início", about: "Sobre", services: "Serviços", gallery: "Galeria", blog: "Blog" },
     home: {
       eyebrow: "Engenheiro de Software Sênior",
       greeting: "Olá, eu sou o Mateus Malaquias.",
@@ -278,10 +293,10 @@ export const ui: Record<Lang, Dict> = {
       funFacts: "Curiosidades",
       facts: [
         "Café é minha bebida favorita",
-        "Adoro jogar Elden Ring no tempo livre",
+        "Ando jogando mais retro games e pixel art",
         "Escrevo sobre quadrinhos, tecnologia e o que ando lendo",
         "Se não fosse desenvolvedor, provavelmente seria zoólogo",
-        "Grande fã do Studio Ghibli e da Pixar",
+        "Grande fã do Studio Ghibli, Pixar e Nintendo",
       ],
     },
     about: {
@@ -440,6 +455,14 @@ export const ui: Record<Lang, Dict> = {
       ctaTitle: "Tem um projeto em mente?",
       ctaText: "Vamos conversar.",
       ctaButton: "Fale comigo →",
+    },
+    gallery: {
+      eyebrow: "Galeria de Pixel Art",
+      title: "Galeria de Pixel Art",
+      intro:
+        "Uma coleção selecionada de peças de pixel art. Acompanhe mais no Instagram.",
+      empty: "Ainda não há peças — volte em breve.",
+      galleryAll: "todos os posts no Instagram ↗",
     },
   },
 };
