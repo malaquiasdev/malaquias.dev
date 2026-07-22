@@ -108,7 +108,7 @@ export const ui: Record<Lang, Dict> = {
         "Been playing more retro & pixel-art games lately",
         "I write about comic-books, technology, and the things I read",
         "If I wasn't a developer, I'd probably be a zoologist",
-        "Big fan of Studio Ghibli and Pixar",
+        "Big fan of Studio Ghibli, Pixar, and Nintendo",
       ],
     },
     about: {
@@ -296,7 +296,7 @@ export const ui: Record<Lang, Dict> = {
         "Ando jogando mais retro games e pixel art",
         "Escrevo sobre quadrinhos, tecnologia e o que ando lendo",
         "Se não fosse desenvolvedor, provavelmente seria zoólogo",
-        "Grande fã do Studio Ghibli e da Pixar",
+        "Grande fã do Studio Ghibli, Pixar e Nintendo",
       ],
     },
     about: {
