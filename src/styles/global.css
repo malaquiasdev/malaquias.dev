@@ -1,14 +1,16 @@
 :root {
-  --bg: #10101c;
-  --bg-elev: #1a1a2e;
-  --bg-elev-2: #21213b;
+  --bg: #01011b;
+  --bg-elev: #0a1f14;
+  --bg-elev-2: #12331f;
   --border: #f8f8f2;
   --text: #f8f8f2;
   --text-dim: #b9b9d6;
   --text-faint: #7a7a9c;
-  --accent: #4fd6be;
-  --accent-2: #ff6b6b;
-  --accent-soft: #16213a;
+  --accent: #f2c801;
+  --accent-2: #369343;
+  /* brighter green for small/hover text, kept AA-safe on --bg (--accent-2 alone fails ~3.9:1) */
+  --accent-2-text: #5cd671;
+  --accent-soft: #0d1f13;
   --radius: 0px;
   --maxw: 860px;
   --shadow-off: 4px;
@@ -68,7 +70,7 @@ a {
 }
 a:hover,
 a:focus-visible {
-  color: var(--accent-2);
+  color: var(--accent-2-text);
 }
 
 :focus-visible {
