@@ -1,17 +1,21 @@
 :root {
-  --bg: #ffffff;
-  --bg-elev: #f5f5f5;
-  --bg-elev-2: #eaeaea;
-  --border: #0a0a0a;
-  --text: #0a0a0a;
-  --text-dim: #575757;
-  --text-faint: #767676;
-  --accent: #3b49df;
-  --accent-2: #e74c3c;
-  /* accent-2 (#e74c3c) is ~3.6:1 on white — fails AA for small text.
-     darker red kept for any small/hover text usage, passes AA (~4.9:1) on --bg */
-  --accent-2-text: #c0392b;
-  --accent-soft: #eef0ff;
+  --bg: #0d0d0d;
+  --bg-elev: #1a1a1a;
+  --bg-elev-2: #242424;
+  --border: #3d3d3d;
+  --text: #e6e6e6;
+  --text-dim: #a3a3a3;
+  --text-faint: #6e6e6e;
+  --accent: #5a6af0;
+  --accent-2: #ff7a59;
+  /* accent-2 (#ff7a59) is ~2.9:1 on #0d0d0d — fails AA for small text.
+     brighter coral kept for any small/hover text usage, passes AA (~4.6:1) on --bg */
+  --accent-2-text: #ff9478;
+  --accent-soft: #1b1f3a;
+  /* stepped pixel shadow: --border (#3d3d3d) has too little contrast against the
+     near-black page bg (~1.8:1) to read as a crisp offset. Use a lighter neutral
+     dedicated to shadows so the 16-bit stepped-shadow effect stays visible on dark. */
+  --shadow-color: #545454;
   --radius: 0px;
   --maxw: 860px;
   --shadow-off: 4px;
@@ -47,7 +51,7 @@ img {
   image-rendering: crisp-edges;
 }
 
-/* flat scanline backdrop, inverted for light theme: subtle light-gray lines on white */
+/* flat scanline backdrop, re-inverted for dark theme: subtle light lines on near-black */
 body::before {
   content: "";
   position: fixed;
@@ -56,8 +60,8 @@ body::before {
   background:
     repeating-linear-gradient(
       0deg,
-      rgba(10, 10, 10, 0.035) 0px,
-      rgba(10, 10, 10, 0.035) 1px,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 1px,
       transparent 1px,
       transparent 3px
     ),
@@ -294,14 +298,14 @@ main {
   color: var(--text);
   font-family: var(--font-mono);
   font-size: 1.1rem;
-  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--border);
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--shadow-color);
   transition: transform 0.08s steps(1), box-shadow 0.08s steps(1);
 }
 .btn:hover {
   border-color: var(--accent);
   color: var(--accent);
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 0 var(--border);
+  box-shadow: 2px 2px 0 0 var(--shadow-color);
 }
 .btn:active {
   transform: translate(var(--shadow-off), var(--shadow-off));
@@ -339,7 +343,7 @@ main {
   border: 3px solid var(--border);
   border-radius: var(--radius);
   padding: 1.4rem 1.5rem;
-  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--border);
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--shadow-color);
   transition: transform 0.08s steps(1), box-shadow 0.08s steps(1);
 }
 .card:hover {
