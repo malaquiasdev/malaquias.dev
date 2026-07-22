@@ -1,16 +1,17 @@
 :root {
-  --bg: #052e1a;
-  --bg-elev: #0f3d24;
-  --bg-elev-2: #1a5730;
-  --border: #f8f8f2;
-  --text: #f8f8f2;
-  --text-dim: #b9b9d6;
-  --text-faint: #7a7a9c;
-  --accent: #f2c801;
-  --accent-2: #369343;
-  /* brighter green for small/hover text, kept AA-safe on --bg (--accent-2 alone fails ~3.9:1) */
-  --accent-2-text: #5cd671;
-  --accent-soft: #0d1f13;
+  --bg: #ffffff;
+  --bg-elev: #f5f5f5;
+  --bg-elev-2: #eaeaea;
+  --border: #0a0a0a;
+  --text: #0a0a0a;
+  --text-dim: #575757;
+  --text-faint: #767676;
+  --accent: #3b49df;
+  --accent-2: #e74c3c;
+  /* accent-2 (#e74c3c) is ~3.6:1 on white — fails AA for small text.
+     darker red kept for any small/hover text usage, passes AA (~4.9:1) on --bg */
+  --accent-2-text: #c0392b;
+  --accent-soft: #eef0ff;
   --radius: 0px;
   --maxw: 860px;
   --shadow-off: 4px;
@@ -46,7 +47,7 @@ img {
   image-rendering: crisp-edges;
 }
 
-/* flat scanline backdrop, no blur / no soft glow */
+/* flat scanline backdrop, inverted for light theme: subtle light-gray lines on white */
 body::before {
   content: "";
   position: fixed;
@@ -55,8 +56,8 @@ body::before {
   background:
     repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.025) 0px,
-      rgba(255, 255, 255, 0.025) 1px,
+      rgba(10, 10, 10, 0.035) 0px,
+      rgba(10, 10, 10, 0.035) 1px,
       transparent 1px,
       transparent 3px
     ),
