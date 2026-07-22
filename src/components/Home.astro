@@ -10,7 +10,6 @@ const { lang } = Astro.props;
 const t = ui[lang].home;
 const tGallery = ui[lang].gallery;
 const latest = devtoPosts.slice(0, 4);
-const galleryHref = lang === "en" ? "/gallery" : "/pt/gallery";
 ---
 
 <section class="section hero">
@@ -59,7 +58,14 @@ const galleryHref = lang === "en" ? "/gallery" : "/pt/gallery";
     <div>
       <p class="eyebrow">{tGallery.eyebrow}</p>
     </div>
-    <a class="muted mono" href={galleryHref}>{tGallery.viewAll}</a>
+    <a
+      class="muted mono"
+      href="https://www.instagram.com/pixel.ai.studio.br"
+      target="_blank"
+      rel="noopener"
+    >
+      {tGallery.galleryAll}
+    </a>
   </div>
   <Gallery lang={lang} showHeader={false} limit={8} gridClass="gallery-grid--home" />
 </section>

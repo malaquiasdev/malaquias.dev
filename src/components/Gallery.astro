@@ -4,17 +4,14 @@ import { gallery } from "../data/gallery";
 
 interface Props {
   lang: Lang;
-  /** Show the eyebrow/title/intro header block. Defaults to true (standalone /gallery page). */
+  /** Show the eyebrow/title/intro header block. Defaults to true. */
   showHeader?: boolean;
-  /** Show the eyebrow within the header block. Defaults to true; set false to avoid
-   * duplicating the eyebrow when it matches the title (e.g. standalone /gallery page). */
-  showEyebrow?: boolean;
   /** Cap the number of items rendered. Omit to render the full gallery. */
   limit?: number;
   /** Extra class appended to the grid element, e.g. to scope a layout modifier. */
   gridClass?: string;
 }
-const { lang, showHeader = true, showEyebrow = true, limit, gridClass } = Astro.props;
+const { lang, showHeader = true, limit, gridClass } = Astro.props;
 const t = ui[lang].gallery;
 const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
 ---
@@ -22,7 +19,7 @@ const items = typeof limit === "number" ? gallery.slice(0, limit) : gallery;
 {
   showHeader && (
     <section class="section">
-      {showEyebrow && <p class="eyebrow">{t.eyebrow}</p>}
+      <p class="eyebrow">{t.eyebrow}</p>
       <h1>{t.title}</h1>
       <p class="lead">{t.intro}</p>
     </section>
