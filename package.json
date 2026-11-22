@@ -13,6 +13,9 @@
     "deploy:no-build": "bash scripts/deploy.sh --no-build"
   },
   "dependencies": {
-    "astro": "^7.1.0"
+    "astro": "^7.4.13"
+  },
+  "engines": {
+    "node": ">=26"
   }
 }
