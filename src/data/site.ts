@@ -17,6 +17,11 @@ export const social = [
     handle: "in/malaquiasdev",
   },
   {
+    label: "GitHub",
+    href: "https://github.com/malaquiasdev",
+    handle: "github.com/malaquiasdev",
+  },
+  {
     label: "Email",
     href: "mailto:mateusmalaquiasdev@outlook.com",
     handle: "mateusmalaquiasdev@outlook.com",
